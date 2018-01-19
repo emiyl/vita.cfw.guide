@@ -1,0 +1,395 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Updating to 3.60 - Vita Guide</title>
+<meta name="description" content="A complete PS Vita Homebrew guide, from stock to Ensō.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_UK">
+<meta property="og:site_name" content="Vita Guide">
+<meta property="og:title" content="Updating to 3.60">
+<meta property="og:url" content="http://192.168.1.115:4000/guide/updating-to-3.60/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://192.168.1.115:4000/guide/updating-to-3.60/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Emily",
+      "url": "http://192.168.1.115:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://192.168.1.115:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Vita Guide Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://192.168.1.115:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<link rel="stylesheet" href="/assets/css/other.css">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+	google_ad_client: "ca-pub-8267943526926430",
+	enable_page_level_ads: true
+  });
+</script>
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://192.168.1.115:4000/">Vita Guide</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://192.168.1.115:4000/guide/get-started/" >Get Started</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://cfw.guide/" >Home</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Guide</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/guide/get-started/" class="">Get Started</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/guide/updating-to-3.60/" class="active">Updating to 3.60</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/guide/installing-henkaku-ftp/" class="">Installing HENkaku (FTP)</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/guide/installing-henkaku-enso-ftp/" class="">Installing HENKaku Ensō (FTP)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">More</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/more/adrenaline/" class="">Adrenaline</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/more/sd2vita/" class="">SD2Vita</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/more/usbmc/" class="">USBMC</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Help</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/help/faq/" class="">FAQ</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://192.168.1.115:4000/help/discord/" class="">Discord</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Updating to 3.60">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Updating to 3.60
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Unforunately, you can only run HENkaku on version 3.60. Fortunately for us who are below that version, there’s now a super easy method which allows us to update without going to the latest version.</p>
+
+<p><img src="/assets/images/vitaupdate.jpg" alt="Vita Update 3.60" title="Vita Update 3.60" /></p>
+
+<h2 id="instructions">Instructions</h2>
+<ol>
+  <li>Open the Settings application</li>
+  <li>Select <strong>Network &gt; Wi-Fi Settings &gt; Advanced Settings &gt; DNS Settings</strong>
+    <ul>
+      <li>Make sure you are connected to the internet</li>
+      <li>Make sure <strong>Proxy Server</strong> is set to <strong>Do Not Use</strong></li>
+    </ul>
+  </li>
+  <li>Choose <strong>Manual</strong></li>
+  <li>Change your <strong>Primary DNS</strong> to <code class="highlighter-rouge">212.47.229.76</code>
+    <ul>
+      <li>Leave your <strong>Secondary DNS</strong> blank</li>
+    </ul>
+  </li>
+  <li>Go back to the main Settings screen and select <strong>System Update &gt; Update Using Wi-Fi</strong></li>
+  <li><strong>Be absolutely certain that the message says “3.60 (変革 Compatible)”</strong></li>
+  <li>Update your system to 3.60</li>
+</ol>
+
+<h2 id="installing-henkaku">Installing HENkaku</h2>
+<center>
+	<table>
+		<colgroup>
+			<col span="1" style="width: 50%;" />
+			<col span="1" style="width: 50%;" />
+		</colgroup>
+		<tbody>
+			<tr>
+				<th>Install with PC</th>
+				<th>Install without PC</th>
+			</tr>
+			<tr>
+				<td><a href="/guide/installing-henkaku-ftp">Installing HENkaku (FTP)</a></td>
+				<td><a href="/guide/installing-henkaku-no-pc">Installing HENkaku (No PC)</a></td>
+			</tr>
+		</tbody>
+	</table>
+</center>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright">&copy; 2018 Emily - Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://192.168.1.115:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
