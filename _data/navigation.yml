@@ -1,0 +1,62 @@
+# main links
+main:
+  - title: "Get Started"
+    url: /guide/get-started/
+  - title: "Home"
+    url: http://cfw.guide/
+  
+side:
+  - title: Guide
+    children:
+      - title: "Get Started"
+        url: /guide/get-started/
+      - title: "Updating to 3.60"
+        url: /guide/updating-to-3.60/
+      - title: "Installing HENkaku (FTP)"
+        url: /guide/installing-henkaku-ftp/
+      - title: "Installing HENKaku Ensō (FTP)"
+        url: /guide/installing-henkaku-enso-ftp/
+        
+  - title: More
+    children:
+      - title: "Adrenaline"
+        url: /more/adrenaline/
+      - title: "SD2Vita"
+        url: /more/sd2vita/
+      - title: "USBMC"
+        url: /more/usbmc/
+        
+  - title: Help
+    children:
+      - title: "FAQ"
+        url: /help/faq/
+      - title: "Discord"
+        url: /help/discord/
+  
+side-nopc:
+  - title: Guide
+    children:
+      - title: "Get Started"
+        url: /guide/get-started/
+      - title: "Updating to 3.60"
+        url: /guide/updating-to-3.60/
+      - title: "Installing HENkaku (No PC)"
+        url: /guide/installing-henkaku-no-pc/
+      - title: "Installing HENKaku Ensō (DE3)"
+        url: /guide/installing-henkaku-enso-de3/
+        
+  - title: More
+    children:
+      - title: "Adrenaline"
+        url: /more/adrenaline/
+      - title: "SD2Vita"
+        url: /more/sd2vita/
+      - title: "USBMC"
+        url: /more/usbmc/
+        
+  - title: Help
+    children:
+      - title: "FAQ"
+        url: /help/faq/
+      - title: "Discord"
+        url: /help/discord/
