@@ -16,8 +16,21 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
     <section class="page__content" itemprop="text">
+
+        <center>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			  style="display:block"
+			  data-ad-client="pub-8267943526926430"
+			  data-ad-slot="8645643953"
+			  data-ad-format="auto">
+			</ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+        </center>
+		
       {{ content }}
-	  {% include googleads.html %}
     </section>
   </article>
 </div>
