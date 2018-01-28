@@ -7,6 +7,10 @@ sidebar:
 
 This part will guide you through installing HENkaku and custom homebrew software. The exploit will require you to relaunch the exploit on every reboot via the HENkaku website, but don’t worry, we’ll install a version which doesn’t require this later.
 
+<hr>
+{% include gads.html %}
+<hr>
+
 ## Instructions
 1. Open the Web Browser on your PS Vita
 2. Go to [https://henkaku.xyz/go](https://henkaku.xyz/go){:target="_blank"}
@@ -37,6 +41,10 @@ The Vita’s browser only lets us download certain types of files, such as audio
 12. Reboot your console
 13. Reinstall HENkaku as shown above
 
+<hr>
+{% include gads.html %}
+<hr>
+
 ## Installing Homebrew
 Now we’ve got that out the way, we can start to download some homebrew applications to put on our Home Menu
 
@@ -50,3 +58,6 @@ Now we’ve got that out the way, we can start to download some homebrew applica
 You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.
 
 <center><a href="/guide/installing-henkaku-enso-no-pc" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Installing HENkaku Ensō (No PC)</font></span></button></a></center>
+
+<hr>
+{% include gads.html %}

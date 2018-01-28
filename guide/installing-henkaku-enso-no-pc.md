@@ -9,6 +9,10 @@ HENkaku requires us to relaunch the exploit upon every reboot. This might not be
 
 You must have installed [Download Enabler 3](/guide/installing-henkaku-no-pc/#enabling-downloads) before following this step.
 
+<hr>
+{% include gads.html %}
+<hr>
+
 ## Instructions
 1. Open the Web Browser on your PS Vita and navigate to this page
 2. Click the following link to download [HENkaku Ensō](https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk) onto your Vita
@@ -20,3 +24,6 @@ You must have installed [Download Enabler 3](/guide/installing-henkaku-no-pc/#en
 	- If it says os0 modifications detected, press **X** to install the 3.60 PUP
 
 You’re done!
+
+<hr>
+{% include gads.html %}

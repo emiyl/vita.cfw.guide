@@ -44,4 +44,13 @@ For this next step, you’ll need to find out your PS Vita’s firmware version.
 	</table>
 </center>
 
+<hr>
+
+{% include gads.html %}
+
+<hr>
+
 ![Vita Version 3.60](/assets/images/vitaversion.jpg "Vita Version 3.60")
+
+<hr>
+{% include gads.html %}

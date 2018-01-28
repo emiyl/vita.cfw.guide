@@ -7,7 +7,15 @@ sidebar:
 
 Unforunately, you can only run HENkaku on version 3.60. Fortunately for us who are below that version, there’s now a super easy method which allows us to update without going to the latest version.
 
+<hr>
+{% include gads.html %}
+<hr>
+
 ![Vita Update 3.60](/assets/images/vitaupdate.jpg "Vita Update 3.60")
+
+<hr>
+{% include gads.html %}
+<hr>
 
 ## Instructions
 1. Open the Settings application
@@ -40,3 +48,6 @@ Unforunately, you can only run HENkaku on version 3.60. Fortunately for us who a
 		</tbody>
 	</table>
 </center>
+
+<hr>
+{% include gads.html %}

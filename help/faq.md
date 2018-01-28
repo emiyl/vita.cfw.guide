@@ -9,6 +9,10 @@ Unsure about something? Check here first!
 
 If you can't find an answer here, ask for help on our [Discord Server](/help/discord).
 
+<hr>
+{% include gads.html %}
+<hr>
+
 ## Error C2-12828 when launching HENkaku
 1. Make sure you have a strong Wi-Fi signal
 2. Delete your cookies in the PS Vita Browser
@@ -32,3 +36,6 @@ Yes, follow this guide here.
 
 ## Is the Vita region-free?
 Yes. You can play any game you like from any region.
+
+<hr>
+{% include gads.html %}

@@ -7,6 +7,10 @@ sidebar:
 
 HENkaku requires us to relaunch the exploit upon every reboot. This might not be hard, but it can get annoying. This is why we recommend installing HENkaku Ensō. Ensō will automatically install HENkaku on boot, making it the best solution to PS Vita homebrew right now.
 
+<hr>
+{% include gads.html %}
+<hr>
+
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
@@ -29,3 +33,6 @@ HENkaku requires us to relaunch the exploit upon every reboot. This might not be
 	- If it says os0 modifications detected, press **X** to install the 3.60 PUP
 
 You’re done!
+
+<hr>
+{% include gads.html %}

@@ -9,6 +9,10 @@ Adrenaline is an extremely useful piece of software which lets you run PS1 and P
 
 If you installed HENkaku using the No-PC route of my guide, download the `.vpk` files from below and install them in VitaShell from `ux0:download`.
 
+<hr>
+{% include gads.html %}
+<hr>
+
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
@@ -40,3 +44,6 @@ Make sure your Vita and computer are connected to the same internet
 19. Go to `*KERNEL` and press **Triangle > Insert Empty Line**
 20. Type into the new line: `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
 21. Reboot
+
+<hr>
+{% include gads.html %}
