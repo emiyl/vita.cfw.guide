@@ -16,6 +16,8 @@ side:
         url: /guide/installing-henkaku-ftp/
       - title: "Installing HENKaku Ensō (FTP)"
         url: /guide/installing-henkaku-enso-ftp/
+      - title: "Finalising Setup (FTP)"
+        url: /guide/finalising-setup-ftp/
         
   - title: More
     children:
@@ -42,8 +44,10 @@ side-nopc:
         url: /guide/updating-to-3.60/
       - title: "Installing HENkaku (No PC)"
         url: /guide/installing-henkaku-no-pc/
-      - title: "Installing HENKaku Ensō (DE3)"
-        url: /guide/installing-henkaku-enso-de3/
+      - title: "Installing HENKaku Ensō (No PC)"
+        url: /guide/installing-henkaku-enso-no-pc/
+      - title: "Finalising Setup (No PC)"
+        url: /guide/finalising-setup-no-pc/
         
   - title: More
     children:

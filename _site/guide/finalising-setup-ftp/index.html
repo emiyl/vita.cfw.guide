@@ -1,0 +1,449 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Finalising Setup (FTP) - Vita Guide</title>
+<meta name="description" content="A complete PS Vita Homebrew guide, from stock to Ensō.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_UK">
+<meta property="og:site_name" content="Vita Guide">
+<meta property="og:title" content="Finalising Setup (FTP)">
+<meta property="og:url" content="http://localhost:4000/guide/finalising-setup-ftp/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/guide/finalising-setup-ftp/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Emily",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Vita Guide Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<link rel="stylesheet" href="/assets/css/other.css">
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Vita Guide</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/guide/get-started/" >Get Started</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://cfw.guide/" >Home</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Guide</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/get-started/" class="">Get Started</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/" class="">Updating to 3.60</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/installing-henkaku-ftp/" class="">Installing HENkaku (FTP)</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/installing-henkaku-enso-ftp/" class="">Installing HENKaku Ensō (FTP)</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/finalising-setup-ftp/" class="active">Finalising Setup (FTP)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">More</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/adrenaline/" class="">Adrenaline</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/sd2vita/" class="">SD2Vita</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/usbmc/" class="">USBMC</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Help</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/help/faq/" class="">FAQ</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/help/discord/" class="">Discord</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Finalising Setup (FTP)">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Finalising Setup (FTP)
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>The following guides are completely optional, however the software is very useful and you may find them helpful.</p>
+
+<h2 id="contents">Contents</h2>
+<ul>
+  <li><a href="#enabling-downloads">Enabling Downloads</a></li>
+  <li><a href="#enabling-ps-store">Enabling PS Store</a></li>
+</ul>
+
+<h2 id="enabling-downloads">Enabling Downloads</h2>
+
+<p>Vitas can only download media files, such as images and videos, through the browser. Download Enabler is a HENkaku Plugin that allows you to download any file.</p>
+
+<p>The downloaded files are found at <code class="highlighter-rouge">ux0:download</code></p>
+
+<h3 id="downloads">Downloads</h3>
+<ul>
+  <li>An FTP Client
+    <ul>
+      <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
+    </ul>
+  </li>
+  <li>The latest release of <a href="https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest" target="_blank">Download Enabler</a></li>
+</ul>
+
+<h3 id="instructions">Instructions</h3>
+<p>Make sure your Vita and computer are connected to the same internet</p>
+
+<ol>
+  <li>Open MolecularShell on your Vita</li>
+  <li>Press <strong>Select</strong></li>
+  <li>Open your FTP client on your computer</li>
+  <li>Type in the IP Address and Port shown on your Vita</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
+  <li>Transfer the Download Enabler <code class="highlighter-rouge">.suprx</code> file</li>
+  <li>Press <strong>O</strong> on your Vita to close the server</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
+  <li>Press <strong>Triangle</strong> and copy the file</li>
+  <li>Navigate to <code class="highlighter-rouge">ur0:tai</code> and paste it there</li>
+  <li>Open <code class="highlighter-rouge">config.txt</code></li>
+  <li>Go to <code class="highlighter-rouge">*main</code> and press <strong>Triangle &gt; Insert empty line</strong></li>
+  <li>Type into the new line: <code class="highlighter-rouge">ur0:tai/de3.suprx</code></li>
+  <li>Exit and save changes</li>
+  <li>Delete the directory <code class="highlighter-rouge">ux0:tai</code> if it exists
+    <ul>
+      <li>If you have any plugins already installed, copy those over to <code class="highlighter-rouge">ur0:tai</code> and edit <code class="highlighter-rouge">ur0:tai/config.txt</code> accordingly</li>
+    </ul>
+  </li>
+  <li>Reboot your console</li>
+  <li>Reinstall HENkaku as shown above</li>
+</ol>
+
+<h2 id="enabling-ps-store">Enabling PS Store</h2>
+
+<p>On July 29th, Sony disabled activation on HENkaku-enabled devices. This means that if you didn’t activate your device before then, you can’t use the PS Store.</p>
+
+<p><a href="http://renpdrm.customprotocol.com/release_page.php" target="_blank">ReNpDrm</a> and <a href="http://renpdrm.customprotocol.com/release_page.php" target="_blank">ReStore</a> are plugins by <a href="https://twitter.com/CelesteBlue123" target="_blank">CelesteBlue</a> that allow you to activate your Vita and use the PS Store.</p>
+
+<p>Bans are <em>theoretically</em> possible, however none have been reported. Use this software at your own risk. CelesteBlue or I will not take responsibility for anything that happens to your device.</p>
+
+<h3 id="downloads-1">Downloads</h3>
+<ul>
+  <li>An FTP Client
+    <ul>
+      <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
+    </ul>
+  </li>
+  <li>The latest release of <a href="http://renpdrm.customprotocol.com/renpdrm_download.php">ReNpDrm</a></li>
+  <li>The latest release of <a href="http://renpdrm.customprotocol.com/renpdrm_download.php">ReStore</a></li>
+</ul>
+
+<h3 id="instructions-1">Instructions</h3>
+<p>Make sure your Vita and computer are connected to the same internet</p>
+
+<ol>
+  <li>Open MolecularShell on your Vita</li>
+  <li>Press <strong>Select</strong></li>
+  <li>Open your FTP client on your computer</li>
+  <li>Type in the IP Address and Port shown on your Vita</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
+  <li>Transfer the Download Enabler <code class="highlighter-rouge">.suprx</code> file</li>
+  <li>Press <strong>O</strong> on your Vita to close the server</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
+  <li>Press <strong>Triangle</strong> and copy the file</li>
+  <li>Navigate to <code class="highlighter-rouge">ur0:tai</code> and paste it there</li>
+  <li>Open <code class="highlighter-rouge">config.txt</code></li>
+  <li>Go to <code class="highlighter-rouge">*main</code> and press <strong>Triangle &gt; Insert empty line</strong></li>
+  <li>Type into the new line: <code class="highlighter-rouge">ur0:tai/de3.suprx</code></li>
+  <li>Exit and save changes</li>
+  <li>Delete the directory <code class="highlighter-rouge">ux0:tai</code> if it exists
+    <ul>
+      <li>If you have any plugins already installed, copy those over to <code class="highlighter-rouge">ur0:tai</code> and edit <code class="highlighter-rouge">ur0:tai/config.txt</code> accordingly</li>
+    </ul>
+  </li>
+  <li>Reboot your console</li>
+  <li>Reinstall HENkaku as shown above</li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright">&copy; 2018 Emily - Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

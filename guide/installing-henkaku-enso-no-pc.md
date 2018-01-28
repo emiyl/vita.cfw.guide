@@ -1,11 +1,13 @@
 ---
-title: Installing HENkaku Ensō (DE3)
+title: Installing HENkaku Ensō (No PC)
 layout: single
 sidebar:
   nav: "side-nopc"
 ---
 
 HENkaku requires us to relaunch the exploit upon every reboot. This might not be hard, but it can get annoying. This is why we recommend installing HENkaku Ensō. Ensō will automatically install HENkaku on boot, making it the best solution to PS Vita homebrew right now.
+
+You must have installed [Download Enabler 3](/guide/installing-henkaku-no-pc/#enabling-downloads) before following this step.
 
 ## Instructions
 1. Open the Web Browser on your PS Vita and navigate to this page
