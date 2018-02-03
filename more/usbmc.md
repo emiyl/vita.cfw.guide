@@ -9,10 +9,6 @@ USBMC, just like SD2Vita, is a solution to Sony's expensive proprietry memory ca
 
 If you installed HENkaku using the No-PC route of my guide, download the `.vpk` files from below and install them in VitaShell from `ux0:download`.
 
-<hr>
-{% include gads.html %}
-<hr>
-
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
@@ -35,6 +31,3 @@ Make sure your Vita and computer are connected to the same internet
 11. Enter the USBMC Installer application again
 11. Press **X** to copy the files to your USB or microSD Card
 	- Make sure you have inserted your USB memory into the PSTV first
-
-<hr>
-{% include gads.html %}

@@ -7,10 +7,6 @@ sidebar:
 
 This part will guide you through installing HENkaku and custom homebrew software. The exploit will require you to relaunch the exploit on every reboot via the HENkaku website, but don’t worry, we’ll install a version which doesn’t require this later.
 
-<hr>
-{% include gads.html %}
-<hr>
-
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
@@ -30,10 +26,6 @@ This will allow us to access the Vita’s internal memory and install homebrew w
 2. Select HENkaku Settings
 3. Check **Enable Unsafe Homebrew**
 
-<hr>
-{% include gads.html %}
-<hr>
-
 ## Installing Homebrew
 Now we’ve got that out the way, we can start to install some homebrew applications to put on our Home Menu
 
@@ -52,6 +44,3 @@ Now we’ve got that out the way, we can start to install some homebrew applicat
 You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.
 
 <center><a href="/guide/installing-henkaku-enso-ftp" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Installing HENkaku Ensō (FTP)</font></span></button></a></center>
-
-<hr>
-{% include gads.html %}
