@@ -17,7 +17,9 @@ This part will guide you through installing HENkaku and custom homebrew software
 1. Open the Web Browser on your PS Vita
 2. Go to [https://henkaku.xyz/go](https://henkaku.xyz/go){:target="_blank"}
 
-MolecularShell and HENkaku should now be installed on your Vita
+MolecularShell and HENkaku should now be installed on your Vita.
+
+[Error C2-12828](/help/faq/#error-c2-12828-when-launching-henkaku){:target="_blank"}
 
 ## Enabling Unsafe Homebrew
 This will allow us to access the Vita’s internal memory and install homebrew which requires extended permissions. This can be dangerous, so be careful when installing homebrews which require it.
