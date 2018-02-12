@@ -7,10 +7,16 @@
 <loc>http://localhost:4000/help/discord/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/more/enabling-downloads/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/help/faq/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/guide/finalising-setup-ftp/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/guide/finalising-setup-no-pc/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/guide/get-started/</loc>

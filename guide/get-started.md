@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-For this next step, you’ll need to find out your PS Vita’s firmware version. You can find this by going to the Settings application and tapping System and then System Information. Your version should be displayed on the top of your screen.
+Firstly, you’ll need to find out your PS Vita’s firmware version. You can find this by going to the Settings application and tapping System and then System Information. Your version should be displayed on the top of your screen.
 
 <center>
 	<table>
