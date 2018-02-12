@@ -2,7 +2,7 @@
 title: Finalising Setup (No PC)
 layout: single
 sidebar:
-  nav: "side"
+  nav: "side-nopc"
 ---
 
 On July 29th, Sony disabled activation on HENkaku-enabled devices. This means that if you didn’t activate your device before then, you can’t use the PS Store.
