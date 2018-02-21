@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Installing HENkaku Ensō (FTP) - Vita Guide</title>
+<!-- begin _includes/seo.html --><title>Installing HENkaku Ensō - Vita Guide</title>
 <meta name="description" content="A complete PS Vita Homebrew guide, from stock to Ensō.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="Vita Guide">
-<meta property="og:title" content="Installing HENkaku Ensō (FTP)">
-<meta property="og:url" content="http://localhost:4000/guide/installing-henkaku-enso-ftp/">
+<meta property="og:title" content="Installing HENkaku Ensō">
+<meta property="og:url" content="http://localhost:4000/guide/updating-to-3.60/no-pc/installing-henkaku-enso/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/guide/installing-henkaku-enso-ftp/">
+<link rel="canonical" href="http://localhost:4000/guide/updating-to-3.60/no-pc/installing-henkaku-enso/">
 
 
 
@@ -202,7 +202,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-henkaku-ftp/" class="">Installing HENkaku (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/no-pc/installing-henkaku/" class="">Installing HENkaku</a></li>
           
             
             
@@ -210,7 +210,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-henkaku-enso-ftp/" class="active">Installing HENKaku Ensō (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/no-pc/installing-henkaku-enso/" class="active">Installing HENKaku Ensō</a></li>
           
             
             
@@ -218,7 +218,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/finalising-setup-ftp/" class="">Finalising Setup (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/no-pc/enabling-ps-store/" class="">Enabling PS Store</a></li>
           
         </ul>
         
@@ -304,7 +304,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Installing HENkaku Ensō (FTP)">
+    <meta itemprop="headline" content="Installing HENkaku Ensō">
     
     
     
@@ -312,7 +312,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Installing HENkaku Ensō (FTP)
+          <h1 class="page__title" itemprop="headline">Installing HENkaku Ensō
 </h1>
           
         </header>
@@ -320,34 +320,18 @@
 
       <section class="page__content" itemprop="text">
         
-		<div class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</div>
+		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
+    <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
         <p>HENkaku requires us to relaunch the exploit upon every reboot. This might not be hard, but it can get annoying. This is why we recommend installing HENkaku Ensō. Ensō will automatically install HENkaku on boot, making it the best solution to PS Vita homebrew right now.</p>
 
-<h2 id="downloads">Downloads</h2>
-<ul>
-  <li>An FTP Client
-    <ul>
-      <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
-    </ul>
-  </li>
-  <li>The latest release of <a href="https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk">HENkaku Ensō</a></li>
-</ul>
+<p>You must have installed <a href="/guide/installing-henkaku-no-pc/#enabling-downloads">Download Enabler 3</a> before following this step.</p>
 
 <h2 id="instructions">Instructions</h2>
 <ol>
-  <li>Open MolecularShell on your Vita</li>
-  <li>Press Select</li>
-  <li>Open your FTP client on your computer</li>
-  <li>Type in the IP Address and Port shown on your Vita</li>
-  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
-  <li>Transfer the Ensō <code class="highlighter-rouge">.vpk</code> file</li>
-  <li>Press <strong>O</strong> on your Vita to close the server</li>
-  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
-  <li>Press <strong>X</strong> on the Ensō <code class="highlighter-rouge">.vpk</code> file to install it
-    <ul>
-      <li>Make sure you still have unsafe homebrew enabled</li>
-    </ul>
-  </li>
+  <li>Open the Web Browser on your PS Vita and navigate to this page</li>
+  <li>Click the following link to download <a href="https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk">HENkaku Ensō</a> onto your Vita</li>
+  <li>Open VitaShell and navigate to <code class="highlighter-rouge">ux0:download</code></li>
+  <li>Press <strong>X</strong> and install <code class="highlighter-rouge">enso.vpk</code></li>
   <li>Exit back to the home menu and open the Ensō application</li>
   <li>Press <strong>O</strong> to accept terms</li>
   <li>Press <strong>X</strong> to install Ensō
@@ -357,7 +341,7 @@
   </li>
 </ol>
 
-<p>You’re done!</p>
+<center><a href="/guide/blocking-updates-no-pc" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Blocking Updates</font></span></button></a></center>
 
         
       </section>

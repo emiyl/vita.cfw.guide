@@ -1,8 +1,8 @@
 ---
-title: Installing HENkaku (No PC)
+title: Installing HENkaku
 layout: single
 sidebar:
-  nav: "side-nopc"
+  nav: "side-update-nopc"
 ---
 
 This part will guide you through installing HENkaku and custom homebrew software. The exploit will require you to relaunch the exploit on every reboot via the HENkaku website, but don’t worry, we’ll install a version which doesn’t require this later.
@@ -46,7 +46,7 @@ Now we’ve got that out the way, we can start to download some homebrew applica
 4. Open MolecularShell and navigate to `ux0:download`
 5. Press **X** on the `.vpk files` to install both of the homebrew applications you just downloaded
 	- Make sure you still have unsafe homebrew enabled
-	
+
 You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.
 
-<center><a href="/guide/installing-henkaku-enso-no-pc" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Installing HENkaku Ensō (No PC)</font></span></button></a></center>
+<center><a href="/guide/no-pc/installing-henkaku-enso" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Installing HENkaku Ensō</font></span></button></a></center>

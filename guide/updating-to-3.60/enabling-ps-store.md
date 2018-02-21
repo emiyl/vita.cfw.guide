@@ -1,8 +1,8 @@
 ---
-title: Finalising Setup (FTP)
+title: Enabling PS Store
 layout: single
 sidebar:
-  nav: "side"
+  nav: "side-update"
 ---
 
 On July 29th, Sony disabled activation on HENkaku-enabled devices. This means that if you didn’t activate your device before then, you can’t use the PS Store.
@@ -11,13 +11,15 @@ On July 29th, Sony disabled activation on HENkaku-enabled devices. This means th
 
 Bans are _theoretically_ possible, however none have been reported. Use this software at your own risk. CelesteBlue or I will not take responsibility for anything that happens to your device.
 
-### Downloads
+## Downloads
+
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
 - The latest release of [ReNpDrm](http://renpdrm.customprotocol.com/renpdrm_download.php)
 - The latest release of [ReStore](http://renpdrm.customprotocol.com/restore_download.php)
 
-### Instructions
+## Instructions
+
 Make sure your Vita and computer are connected to the same internet
 
 1. Open MolecularShell on your Vita

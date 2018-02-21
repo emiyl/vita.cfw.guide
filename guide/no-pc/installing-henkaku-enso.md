@@ -1,5 +1,5 @@
 ---
-title: Installing HENkaku Ensō (No PC)
+title: Installing HENkaku Ensō
 layout: single
 sidebar:
   nav: "side-nopc"
@@ -19,4 +19,4 @@ You must have installed [Download Enabler 3](/guide/installing-henkaku-no-pc/#en
 7. Press **X** to install Ensō
 	- If it says os0 modifications detected, press **X** to install the 3.60 PUP
 
-You’re done!
+<center><a href="/guide/blocking-updates-no-pc" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Blocking Updates</font></span></button></a></center>

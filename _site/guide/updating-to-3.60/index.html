@@ -202,7 +202,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-henkaku-ftp/" class="">Installing HENkaku (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/installing-henkaku/" class="">Installing HENkaku</a></li>
           
             
             
@@ -210,7 +210,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-henkaku-enso-ftp/" class="">Installing HENKaku Ensō (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/installing-henkaku-enso/" class="">Installing HENKaku Ensō</a></li>
           
             
             
@@ -218,7 +218,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/finalising-setup-ftp/" class="">Finalising Setup (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/enabling-ps-store/" class="">Enabling PS Store</a></li>
           
         </ul>
         
@@ -320,12 +320,10 @@
 
       <section class="page__content" itemprop="text">
         
-		<div class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</div>
-        <p>Unforunately, you can only run HENkaku on version 3.60. Fortunately for us who are below that version, there’s now a super easy method which allows us to update without going to the latest version.</p>
+		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
+    <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
+        <p>HENkaku only runs on 3.60. If you are on 3.57 or below, you’ll need to update to 3.60.</p>
 
-<p><img src="/assets/images/vitaupdate.jpg" alt="Vita Update 3.60" title="Vita Update 3.60" /></p>
-
-<h2 id="instructions">Instructions</h2>
 <ol>
   <li>Open the Settings application</li>
   <li>Select <strong>Network &gt; Wi-Fi Settings &gt; Advanced Settings &gt; DNS Settings</strong>
@@ -335,15 +333,18 @@
     </ul>
   </li>
   <li>Choose <strong>Manual</strong></li>
-  <li>Change your <strong>Primary DNS</strong> to <code class="highlighter-rouge">212.47.229.76</code>
-    <ul>
-      <li>Leave your <strong>Secondary DNS</strong> blank</li>
-    </ul>
-  </li>
-  <li>Go back to the main Settings screen and select <strong>System Update &gt; Update Using Wi-Fi</strong></li>
-  <li><strong>Be absolutely certain that the message says “3.60 (変革 Compatible)”</strong></li>
+  <li>Change your <strong>Primary DNS</strong> to <code class="highlighter-rouge">212.47.229.76</code></li>
+  <li>Change your <strong>Secondary DNS</strong> to <code class="highlighter-rouge">212.47.229.76</code></li>
+  <li>Go back to the main Settings screen</li>
+  <li>Go to <strong>System &gt; Auto-Start Settings</strong></li>
+  <li>Uncheck <strong>Download Update File for System Software</strong></li>
+  <li>Go back to the main Settings screen</li>
+  <li>Select <strong>System Update &gt; Update Using Wi-Fi</strong></li>
+  <li>Be absolutely certain that the message says “3.60 (変革 Compatible)”</li>
   <li>Update your system to 3.60</li>
 </ol>
+
+<p><img src="/assets/images/vitaupdate.jpg" alt="Vita Update 3.60" title="Vita Update 3.60" /></p>
 
 <h2 id="installing-henkaku">Installing HENkaku</h2>
 <center>
@@ -358,8 +359,8 @@
 				<th>Install without PC</th>
 			</tr>
 			<tr>
-				<td><a href="/guide/installing-henkaku-ftp">Installing HENkaku (FTP)</a></td>
-				<td><a href="/guide/installing-henkaku-no-pc">Installing HENkaku (No PC)</a></td>
+				<td><a href="/guide/updating-to-3.60/installing-henkaku">Installing HENkaku (FTP)</a></td>
+				<td><a href="/guide/updating-to-3.60/no-pc/installing-henkaku">Installing HENkaku (No PC)</a></td>
 			</tr>
 		</tbody>
 	</table>

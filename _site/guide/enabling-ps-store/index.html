@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Installing HENkaku (FTP) - Vita Guide</title>
+<!-- begin _includes/seo.html --><title>Enabling PS Store (FTP) - Vita Guide</title>
 <meta name="description" content="A complete PS Vita Homebrew guide, from stock to Ensō.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="Vita Guide">
-<meta property="og:title" content="Installing HENkaku (FTP)">
-<meta property="og:url" content="http://localhost:4000/guide/installing-henkaku-ftp/">
+<meta property="og:title" content="Enabling PS Store (FTP)">
+<meta property="og:url" content="http://localhost:4000/guide/enabling-ps-store/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/guide/installing-henkaku-ftp/">
+<link rel="canonical" href="http://localhost:4000/guide/enabling-ps-store/">
 
 
 
@@ -202,7 +202,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-henkaku-ftp/" class="active">Installing HENkaku (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/installing-henkaku/" class="">Installing HENkaku</a></li>
           
             
             
@@ -210,7 +210,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-henkaku-enso-ftp/" class="">Installing HENKaku Ensō (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/installing-henkaku-enso/" class="">Installing HENKaku Ensō</a></li>
           
             
             
@@ -218,7 +218,15 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/finalising-setup-ftp/" class="">Finalising Setup (FTP)</a></li>
+            <li><a href="http://localhost:4000/guide/blocking-updates/" class="">Blocking Updates</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/enabling-ps-store/" class="active">Enabling PS Store</a></li>
           
         </ul>
         
@@ -304,7 +312,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Installing HENkaku (FTP)">
+    <meta itemprop="headline" content="Enabling PS Store (FTP)">
     
     
     
@@ -312,7 +320,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Installing HENkaku (FTP)
+          <h1 class="page__title" itemprop="headline">Enabling PS Store (FTP)
 </h1>
           
         </header>
@@ -320,60 +328,55 @@
 
       <section class="page__content" itemprop="text">
         
-		<div class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</div>
-        <p>This part will guide you through installing HENkaku and custom homebrew software. The exploit will require you to relaunch the exploit on every reboot via the HENkaku website, but don’t worry, we’ll install a version which doesn’t require this later.</p>
+		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
+    <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
+        <p>On July 29th, Sony disabled activation on HENkaku-enabled devices. This means that if you didn’t activate your device before then, you can’t use the PS Store.</p>
+
+<p><a href="http://renpdrm.customprotocol.com/release_page.php" target="_blank">ReNpDrm</a> and <a href="http://renpdrm.customprotocol.com/release_page.php" target="_blank">ReStore</a> are plugins by <a href="https://twitter.com/CelesteBlue123" target="_blank">CelesteBlue</a> that allow you to activate your Vita and use the PS Store.</p>
+
+<p>Bans are <em>theoretically</em> possible, however none have been reported. Use this software at your own risk. CelesteBlue or I will not take responsibility for anything that happens to your device.</p>
 
 <h2 id="downloads">Downloads</h2>
+
 <ul>
   <li>An FTP Client
     <ul>
       <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
     </ul>
   </li>
-  <li>The latest release of <a href="https://github.com/TheOfficialFloW/VitaShell/releases/latest" target="_blank">VitaShell</a></li>
-  <li>The latest release of <a href="https://github.com/devnoname120/vhbb/releases/latest" target="_blank">Vita Homebrew Browser</a></li>
+  <li>The latest release of <a href="http://renpdrm.customprotocol.com/renpdrm_download.php">ReNpDrm</a></li>
+  <li>The latest release of <a href="http://renpdrm.customprotocol.com/restore_download.php">ReStore</a></li>
 </ul>
 
 <h2 id="instructions">Instructions</h2>
-<ol>
-  <li>Open the Web Browser on your PS Vita</li>
-  <li>Go to <a href="https://henkaku.xyz/go" target="_blank">https://henkaku.xyz/go</a></li>
-</ol>
 
-<p>MolecularShell and HENkaku should now be installed on your Vita</p>
-
-<h2 id="enabling-unsafe-homebrew">Enabling Unsafe Homebrew</h2>
-<p>This will allow us to access the Vita’s internal memory and install homebrew which requires extended permissions. This can be dangerous, so be careful when installing homebrews which require it.</p>
-
-<ol>
-  <li>Open the Settings application</li>
-  <li>Select HENkaku Settings</li>
-  <li>Check <strong>Enable Unsafe Homebrew</strong></li>
-</ol>
-
-<h2 id="installing-homebrew">Installing Homebrew</h2>
-<p>Now we’ve got that out the way, we can start to install some homebrew applications to put on our Home Menu</p>
+<p>Make sure your Vita and computer are connected to the same internet</p>
 
 <ol>
   <li>Open MolecularShell on your Vita</li>
-  <li>Press Select</li>
+  <li>Press <strong>Select</strong></li>
   <li>Open your FTP client on your computer</li>
   <li>Type in the IP Address and Port shown on your Vita</li>
   <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
-  <li>Transfer the VitaShell <code class="highlighter-rouge">.vpk</code> file</li>
-  <li>Transfer the Vita Homebrew Browser <code class="highlighter-rouge">.vpk</code> file</li>
+  <li>Transfer the ReNpDrm <code class="highlighter-rouge">.skprx</code> file</li>
+  <li>Transfer the ResTORE <code class="highlighter-rouge">.suprx</code> file</li>
   <li>Press <strong>O</strong> on your Vita to close the server</li>
   <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
-  <li>Press <strong>X</strong> on the <code class="highlighter-rouge">.vpk</code> files to install both of the homebrew applications you downloaded
+  <li>Press <strong>Triangle</strong> and copy the file</li>
+  <li>Navigate to <code class="highlighter-rouge">ur0:tai</code> and paste it there</li>
+  <li>Open <code class="highlighter-rouge">config.txt</code></li>
+  <li>Go to <code class="highlighter-rouge">*KERNEL</code> and press <strong>Triangle &gt; Insert empty line</strong></li>
+  <li>Type into the new line: <code class="highlighter-rouge">ur0:tai/renpdrm.skprx</code></li>
+  <li>Go to <code class="highlighter-rouge">*main</code> and press <strong>Triangle &gt; Insert empty line</strong></li>
+  <li>Type into the new line: <code class="highlighter-rouge">ur0:tai/restore.suprx</code></li>
+  <li>Exit and save changes</li>
+  <li>Delete the directory <code class="highlighter-rouge">ux0:tai</code> if it exists
     <ul>
-      <li>Make sure you still have unsafe homebrew enabled</li>
+      <li>If you have any other plugins previously installed, copy those over to <code class="highlighter-rouge">ur0:tai</code> and edit <code class="highlighter-rouge">ur0:tai/config.txt</code> accordingly</li>
     </ul>
   </li>
+  <li>Reboot your console</li>
 </ol>
-
-<p>You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.</p>
-
-<center><a href="/guide/installing-henkaku-enso-ftp" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Installing HENkaku Ensō (FTP)</font></span></button></a></center>
 
         
       </section>
