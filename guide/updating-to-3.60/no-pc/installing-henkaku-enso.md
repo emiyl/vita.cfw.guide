@@ -19,4 +19,4 @@ You must have installed [Download Enabler 3](/guide/installing-henkaku-no-pc/#en
 7. Press **X** to install Ensō
 	- If it says os0 modifications detected, press **X** to install the 3.60 PUP
 
-<center><a href="/guide/enabling-ps-store" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Enabling PS Store</font></span></button></a></center>
+<center><a href="/guide/updating-to-3.60/no-pc/enabling-ps-store" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Enabling PS Store</font></span></button></a></center>
