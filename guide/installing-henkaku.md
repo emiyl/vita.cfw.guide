@@ -1,5 +1,5 @@
 ---
-title: Installing HENkaku (FTP)
+title: Installing HENkaku
 layout: single
 sidebar:
   nav: "side"
@@ -18,6 +18,8 @@ This part will guide you through installing HENkaku and custom homebrew software
 2. Go to [https://henkaku.xyz/go](https://henkaku.xyz/go){:target="_blank"}
 
 MolecularShell and HENkaku should now be installed on your Vita
+
+[Error C2-12828](/help/faq/#error-c2-12828-when-launching-henkaku)
 
 ## Enabling Unsafe Homebrew
 This will allow us to access the Vita’s internal memory and install homebrew which requires extended permissions. This can be dangerous, so be careful when installing homebrews which require it.
@@ -43,4 +45,4 @@ Now we’ve got that out the way, we can start to install some homebrew applicat
 
 You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.
 
-<center><a href="/guide/installing-henkaku-enso" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Installing HENkaku Ensō</font></span></button></a></center>
+<center><a href="/guide/installing-henkaku-enso"><button class="btn btn--light-outline">Installing HENkaku Ensō</button></a></center>

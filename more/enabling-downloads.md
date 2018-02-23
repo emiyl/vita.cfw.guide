@@ -7,8 +7,6 @@ sidebar:
 
 Vitas can only download media files, such as images and videos, through the browser. Download Enabler is a HENkaku Plugin that allows you to download any file.
 
-If you don't have a PC with you, follow [this guide](/guide/installing-henkaku-no-pc/#enabling-downloads).
-
 ### Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}

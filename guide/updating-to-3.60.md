@@ -2,7 +2,7 @@
 title: Updating to 3.60
 layout: single
 sidebar:
-  nav: "side-update"
+  nav: "side"
 ---
 
 HENkaku only runs on 3.60. If you are on 3.57 or below, you'll need to update to 3.60.
@@ -23,23 +23,5 @@ HENkaku only runs on 3.60. If you are on 3.57 or below, you'll need to update to
 9. Update your system to 3.60
 
 ![Vita Update 3.60](/assets/images/vitaupdate.jpg "Vita Update 3.60")
-
-## Installing HENkaku
-<center>
-	<table>
-		<colgroup>
-			<col span="1" style="width: 50%;" />
-			<col span="1" style="width: 50%;" />
-		</colgroup>
-		<tbody>
-			<tr>
-				<th>Install with PC</th>
-				<th>Install without PC</th>
-			</tr>
-			<tr>
-				<td><a href="/guide/updating-to-3.60/installing-henkaku">Installing HENkaku (FTP)</a></td>
-				<td><a href="/guide/updating-to-3.60/no-pc/installing-henkaku">Installing HENkaku (No PC)</a></td>
-			</tr>
-		</tbody>
-	</table>
-</center>
+---
+<center><a href="/guide/installing-henkaku"><button class="btn btn--light-outline">Installing HENkaku</button></a></center>

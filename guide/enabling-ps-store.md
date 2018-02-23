@@ -1,5 +1,5 @@
 ---
-title: Enabling PS Store (FTP)
+title: Enabling PS Store
 layout: single
 sidebar:
   nav: "side"
@@ -42,3 +42,5 @@ Make sure your Vita and computer are connected to the same internet
 16. Delete the directory `ux0:tai` if it exists
 	- If you have any other plugins previously installed, copy those over to `ur0:tai` and edit `ur0:tai/config.txt` accordingly
 17. Reboot your console
+
+<center><a href="/guide/blocking-updates"><button class="btn btn--light-outline">Blocking Updates</button></a></center>

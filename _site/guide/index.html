@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Enabling PS Store - Vita Guide</title>
+<!-- begin _includes/seo.html --><title>Get Started - Vita Guide</title>
 <meta name="description" content="A complete PS Vita Homebrew guide, from stock to Ensō.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="Vita Guide">
-<meta property="og:title" content="Enabling PS Store">
-<meta property="og:url" content="http://localhost:4000/guide/no-pc/enabling-ps-store/">
+<meta property="og:title" content="Get Started">
+<meta property="og:url" content="http://localhost:4000/guide/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/guide/no-pc/enabling-ps-store/">
+<link rel="canonical" href="http://localhost:4000/guide/">
 
 
 
@@ -123,11 +123,6 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/guide/get-started/" >Get Started</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
               <a href="https://www.paypal.me/emiyl" >Donate</a>
             </li>
           
@@ -202,7 +197,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/no-pc/installing-henkaku/" class="">Installing HENkaku</a></li>
+            <li><a href="http://localhost:4000/guide/installing-henkaku/" class="">Installing HENkaku</a></li>
           
             
             
@@ -210,7 +205,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/no-pc/installing-henkaku-enso/" class="">Installing HENKaku Ensō</a></li>
+            <li><a href="http://localhost:4000/guide/installing-henkaku-enso/" class="">Installing HENKaku Ensō</a></li>
           
             
             
@@ -218,7 +213,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/no-pc/blocking-updates/" class="">Blocking Updates</a></li>
+            <li><a href="http://localhost:4000/guide/enabling-ps-store/" class="">Enabling PS Store</a></li>
           
             
             
@@ -226,7 +221,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/no-pc/enabling-ps-store/" class="active">Enabling PS Store</a></li>
+            <li><a href="http://localhost:4000/guide/blocking-updates/" class="">Blocking Updates</a></li>
           
         </ul>
         
@@ -312,7 +307,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Enabling PS Store">
+    <meta itemprop="headline" content="Get Started">
     
     
     
@@ -320,7 +315,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Enabling PS Store
+          <h1 class="page__title" itemprop="headline">Get Started
 </h1>
           
         </header>
@@ -330,46 +325,42 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        <p>On July 29th, Sony disabled activation on HENkaku-enabled devices. This means that if you didn’t activate your device before then, you can’t use the PS Store.</p>
+        <p>Firstly, you’ll need to find out your PS Vita’s firmware version. You can find this by going to the Settings application and tapping System and then System Information. Your version should be displayed on the top of your screen.</p>
 
-<p><a href="http://renpdrm.customprotocol.com/release_page.php" target="_blank">ReNpDrm</a> and <a href="http://renpdrm.customprotocol.com/release_page.php" target="_blank">ReStore</a> are plugins by <a href="https://twitter.com/CelesteBlue123" target="_blank">CelesteBlue</a> that allow you to activate your Vita and use the PS Store.</p>
+<center>
+	<table>
+		<colgroup>
+			<col span="1" style="width: 10%;" />
+			<col span="1" style="width: 10%;" />
+			<col span="1" style="width: 40%;" />
+			<col span="1" style="width: 40%;" />
+		</colgroup>
+		<tbody>
+			<tr>
+				<th>From</th>
+				<th>To</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>1.00</td>
+				<td>3.57</td>
+				<td><a href="/guide/updating-to-3.60">Updating to 3.60</a></td>
+			</tr>
+			<tr>
+				<td>3.60</td>
+				<td>3.60</td>
+				<td><a href="/guide/installing-henkaku">Installing HENkaku</a></td>
+			</tr>
+			<tr>
+				<td>3.61</td>
+				<td>3.67</td>
+				<td><a href="/guide/blocking-updates">Blocking Updates</a></td>
+			</tr>
+		</tbody>
+	</table>
+</center>
 
-<p>Bans are <em>theoretically</em> possible, however none have been reported. Use this software at your own risk. CelesteBlue or I will not take responsibility for anything that happens to your device.</p>
-
-<h3 id="downloads">Downloads</h3>
-<ul>
-  <li>An FTP Client
-    <ul>
-      <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
-    </ul>
-  </li>
-  <li>The latest release of <a href="http://renpdrm.customprotocol.com/renpdrm_download.php">ReNpDrm</a></li>
-  <li>The latest release of <a href="http://renpdrm.customprotocol.com/restore_download.php">ReStore</a></li>
-</ul>
-
-<h3 id="instructions">Instructions</h3>
-<p>Make sure your Vita and computer are connected to the same internet</p>
-
-<ol>
-  <li>Open the Web Browser on your Vita to this page</li>
-  <li>Download the latest release of <a href="http://renpdrm.customprotocol.com/renpdrm_download.php">ReNpDrm</a></li>
-  <li>Download the latest release of <a href="http://renpdrm.customprotocol.com/restore_download.php">ReStore</a></li>
-  <li>Open VitaShell and navigate to <code class="highlighter-rouge">uxo:download</code></li>
-  <li>Copy the ReNpDrm <code class="highlighter-rouge">.skrpx</code> file to the <code class="highlighter-rouge">ur0:tai/</code> directory</li>
-  <li>Copy the ReStore <code class="highlighter-rouge">.surpx</code> file to the <code class="highlighter-rouge">ur0:tai/</code> directory</li>
-  <li>Open <code class="highlighter-rouge">ur0:tai/config.txt</code></li>
-  <li>Go to <code class="highlighter-rouge">*KERNEL</code> and press <strong>Triangle &gt; Insert empty line</strong></li>
-  <li>Type into the new line: <code class="highlighter-rouge">ur0:tai/renpdrm.skprx</code></li>
-  <li>Go to <code class="highlighter-rouge">*main</code> and press <strong>Triangle &gt; Insert empty line</strong></li>
-  <li>Type into the new line: <code class="highlighter-rouge">ur0:tai/restore.suprx</code></li>
-  <li>Exit and save changes</li>
-  <li>Delete the directory <code class="highlighter-rouge">ux0:tai</code> if it exists
-    <ul>
-      <li>If you have any other plugins previously installed, copy those over to <code class="highlighter-rouge">ur0:tai</code> and edit <code class="highlighter-rouge">ur0:tai/config.txt</code> accordingly</li>
-    </ul>
-  </li>
-  <li>Reboot your console</li>
-</ol>
+<p><img src="/assets/images/vitaversion.jpg" alt="Vita Version 3.60" title="Vita Version 3.60" /></p>
 
         
       </section>

@@ -28,7 +28,7 @@ No. You must buy a new Vita on 3.60 or below or swap out your motherboard for on
 Yes. All new Vitas will come on versions 3.60 or lower. However, new Japanese Red and Silver models will come on 3.61 or higher.
 
 ## Can I update to 3.60?
-Yes, follow this guide here.
+Yes, follow this guide [here](/guide/updating-to-3.60).
 
 ## Is the Vita region-free?
 Yes. You can play any game you like from any region.

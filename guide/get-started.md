@@ -19,26 +19,22 @@ Firstly, you’ll need to find out your PS Vita’s firmware version. You can fi
 			<tr>
 				<th>From</th>
 				<th>To</th>
-				<th>With PC</th>
-				<th>Without PC</th>
+				<th></th>
 			</tr>
 			<tr>
 				<td>1.00</td>
 				<td>3.57</td>
 				<td><a href="/guide/updating-to-3.60">Updating to 3.60</a></td>
-				<td><a href="/guide/updating-to-3.60">Updating to 3.60</a></td>
 			</tr>
 			<tr>
 				<td>3.60</td>
 				<td>3.60</td>
-				<td><a href="/guide/installing-henkaku">Installing HENkaku (FTP)</a></td>
-				<td><a href="/guide/no-pc/installing-henkaku">Installing HENkaku (No PC)</a></td>
+				<td><a href="/guide/installing-henkaku">Installing HENkaku</a></td>
 			</tr>
 			<tr>
 				<td>3.61</td>
 				<td>3.67</td>
-				<td></td>
-				<td></td>
+				<td><a href="/guide/blocking-updates">Blocking Updates</a></td>
 			</tr>
 		</tbody>
 	</table>

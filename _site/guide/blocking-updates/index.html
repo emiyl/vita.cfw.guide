@@ -123,11 +123,6 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/guide/get-started/" >Get Started</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
               <a href="https://www.paypal.me/emiyl" >Donate</a>
             </li>
           
@@ -218,7 +213,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/blocking-updates/" class="active">Blocking Updates</a></li>
+            <li><a href="http://localhost:4000/guide/enabling-ps-store/" class="">Enabling PS Store</a></li>
           
             
             
@@ -226,7 +221,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/enabling-ps-store/" class="">Enabling PS Store</a></li>
+            <li><a href="http://localhost:4000/guide/blocking-updates/" class="active">Blocking Updates</a></li>
           
         </ul>
         
@@ -330,7 +325,27 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        
+        <p>HENkaku only runs on 3.60, therefore it’s important to not update further.</p>
+
+<p>If you previously set your DNS when updating to 3.60 and haven’t changed it since, you don’t need to follow this step.</p>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Open the Settings application</li>
+  <li>Select <strong>Network &gt; Wi-Fi Settings &gt; Advanced Settings &gt; DNS Settings</strong>
+    <ul>
+      <li>Make sure you are connected to the internet</li>
+      <li>Make sure <strong>Proxy Server</strong> is set to <strong>Do Not Use</strong></li>
+    </ul>
+  </li>
+  <li>Choose <strong>Manual</strong></li>
+  <li>Change your <strong>Primary DNS</strong> to <code class="highlighter-rouge">212.47.229.76</code></li>
+  <li>Change your <strong>Secondary DNS</strong> to <code class="highlighter-rouge">212.47.229.76</code></li>
+  <li>Go back to the main Settings screen</li>
+  <li>Go to <strong>System &gt; Auto-Start Settings</strong></li>
+  <li>Uncheck <strong>Download Update File for System Software</strong></li>
+</ol>
 
         
       </section>
