@@ -1,7 +1,6 @@
 ---
 layout: splash
 permalink: /
-title: Vita Guide
 excerpt: "A complete PS Vita hacking guide, from stock to Ensō."
 header:
   overlay_color: "#1a1d24"
@@ -10,6 +9,7 @@ header:
 ---
 
 ## What is homebrew?
+
 Homebrew applications are custom, user-made software, which hasn't been authorised by Sony. This can include save editing tools, games, emulators, and more. For example, VitaDoom is a port of the classic game DOOM and mGBA lets you play Game Boy Advance ROMs. You can find more examples of Vita homebrew [here](https://henkaku.xyz/showcase/){:target="_blank"}.
 
 ## What is HENkaku?
