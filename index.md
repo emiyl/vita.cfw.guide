@@ -1,6 +1,7 @@
 ---
 layout: splash
 permalink: /
+title: Vita Guide
 excerpt: "A complete PS Vita hacking guide, from stock to Ensō."
 header:
   overlay_color: "#1a1d24"
