@@ -8,7 +8,7 @@ sidebar:
 HENkaku only runs on 3.60. If you are on 3.57 or below, you'll need to update to 3.60.
 
 1. Open the Settings application
-2. Select **Network > Wi-Fi Settings > Advanced Settings > DNS Settings**
+2. Select **Network > Wi-Fi Settings > Your Network > Advanced Settings > DNS Settings**
 	- Make sure you are connected to the internet
 	- Make sure **Proxy Server** is set to **Do Not Use**
 3. Choose **Manual**
