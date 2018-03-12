@@ -1,0 +1,582 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Updating to HENkaku Ensō 3.65 - Vita Guide</title>
+<meta name="description" content="A complete PS Vita hacking guide, from stock to Ensō.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_UK">
+<meta property="og:site_name" content="Vita Guide">
+<meta property="og:title" content="Updating to HENkaku Ensō 3.65">
+<meta property="og:url" content="http://localhost:4000/more/updating-to-henkaku-enso-3.65/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/more/updating-to-henkaku-enso-3.65/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Emily",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Vita Guide Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<link rel="stylesheet" href="/assets/css/other.css">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8267943526926430",
+    enable_page_level_ads: true
+  });
+</script>
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Vita Guide</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://www.paypal.me/emiyl" >Donate</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://cfw.guide/" >Home</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Guide</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/get-started/" class="">Get Started</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/updating-to-3.60/" class="">Updating to 3.60</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/installing-henkaku/" class="">Installing HENkaku</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/installing-henkaku-enso/" class="">Installing HENKaku Ensō</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/enabling-ps-store/" class="">Enabling PS Store</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/blocking-updates/" class="">Blocking Updates</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">More</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/adrenaline/" class="">Adrenaline</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/sd2vita/" class="">SD2Vita</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/usbmc/" class="">USBMC</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/enabling-downloads/" class="">Enabling Downloads</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/more/updating-to-henkaku-enso-3.65/" class="active">Updating to HENkaku Enso 3.65</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Help</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/help/faq/" class="">FAQ</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/help/discord/" class="">Discord</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Updating to HENkaku Ensō 3.65">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Updating to HENkaku Ensō 3.65
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> </h4></header>
+              <ul class="toc__menu">
+  <li><a href="#important">Important</a></li>
+  <li><a href="#warnings">Warnings</a></li>
+  <li><a href="#compatibility">Compatibility</a></li>
+  <li><a href="#downloads">Downloads</a></li>
+  <li><a href="#instructions">Instructions</a>
+    <ul>
+      <li><a href="#preparing">Preparing</a></li>
+      <li><a href="#uninstalling-henkaku-ensō">Uninstalling HENkaku Ensō</a></li>
+      <li><a href="#backing-up-vitashell">Backing up VitaShell</a></li>
+      <li><a href="#installing-henkaku-ensō-for-365">Installing HENkaku Ensō for 3.65</a></li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
+    <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
+        <p>You can now update your 3.60 HENkaku enabled PS Vita to 3.65, while keeping HENkaku installed. This is not installable from 3.61 or above.</p>
+
+<div class="notice"><p>If you are on a firmware version below 3.60, update using <a href="/guide/updating-to-3.60/">this guide</a>.</p>
+<p>If you have not yet installed HENkaku, follow <a href="/guide/installing-henkaku/">this guide</a>. Do not proceed to installing HENkaku Ensō.</p></div>
+
+<h2 id="important">Important</h2>
+<p>If you do not follow this guide correctly, you could lose homebrew access, with <strong>no way to get it back!</strong></p>
+
+<p>Only follow this guide if you want to install games which require a firmware version higher than 3.61!</p>
+
+<p>Please follow all steps in this guide carefully. I will not be responsible to anything that happens to your device when using this.</p>
+
+<p>If you have any tips to improve the guide, please contact me on my <a href="/help/discord/" target="_blank">Discord</a>.</p>
+
+<h2 id="warnings">Warnings</h2>
+
+<p><strong>DO NOT:</strong></p>
+<ul>
+  <li>Reflash the 3.65 PUP</li>
+  <li>Mess with system partitions</li>
+  <li>Use applications which mess with system partitions</li>
+</ul>
+
+<p>Doing so could leave you on 3.65 without any way to regain homebrew access.</p>
+
+<p>Formatting your Vita should be safe however.</p>
+
+<h2 id="compatibility">Compatibility</h2>
+
+<p>Many plugins and applications have not been updated to support 3.65. As such, some of them on your Vita may stop working. Software such as VitaShell, Adrenaline, DownloadEnabler, SD2Vita, and more have been updated though however. Download the latest version to use them.</p>
+
+<h2 id="downloads">Downloads</h2>
+
+<ul>
+  <li>An FTP Client
+    <ul>
+      <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
+    </ul>
+  </li>
+  <li>The latest release of <a href="https://github.com/TheOfficialFloW/VitaShell/releases/latest/" target="_blank">VitaShell</a>
+    <ul>
+      <li>You must have v1.82 or later</li>
+      <li>VitaShell no longer automatically updates, so you will need to download it again if it’s not already installed</li>
+    </ul>
+  </li>
+  <li>The latest release of <a href="https://github.com/TheOfficialFloW/update365/releases/latest" target="_blank">update365</a>
+    <ul>
+      <li>Download both files</li>
+    </ul>
+  </li>
+  <li>The latest release of <a href="http://cma.dl.playstation.net/cma/win/gb/index.html" target="_blank">CMA</a></li>
+  <li>The latest release of <a href="https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk">HENkaku Ensō</a>
+    <ul>
+      <li>Only if you have previously installed HENkaku Ensō</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<p>Do not reboot, turn off, or let your PS Vita run out of charge while following this guide unless told to.</p>
+
+<h3 id="preparing">Preparing</h3>
+<hr />
+
+<ol>
+  <li>Delete VitaShell if it’s already installed
+    <ul>
+      <li>Make sure MolecularShell is still installed</li>
+      <li><a href="/guide/installing-henkaku/#instructions" target="_blank">Reinstall HENkaku</a> while holding down <strong>R</strong> to install it</li>
+    </ul>
+  </li>
+  <li>Open MolecularShell on your Vita</li>
+  <li>Press <strong>Select</strong></li>
+  <li>Open your FTP client on your computer</li>
+  <li>Type in the IP Address and Port shown on your Vita</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
+  <li>Transfer the <code class="highlighter-rouge">VitaShell.vpk</code> file to your Vita</li>
+  <li>Transfer the <code class="highlighter-rouge">updater.vpk</code> file to your Vita</li>
+  <li>Transfer the <code class="highlighter-rouge">enso.vpk</code> file to your Vita
+    <ul>
+      <li>Only if you have previously installed HENkaku Ensō</li>
+    </ul>
+  </li>
+  <li>Transfer the <code class="highlighter-rouge">PSP2UPDAT.PUP</code> file to your Vita</li>
+  <li>Press <strong>O</strong> on your Vita to close the server</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
+  <li>Press <strong>X</strong> on the <code class="highlighter-rouge">.vpk</code> files to install both of the applications you downloaded
+    <ul>
+      <li>Make sure you have <a href="/guide/installing-henkaku/#enabling-unsafe-homebrew" target="_blank">unsafe homebrew enabled</a></li>
+    </ul>
+  </li>
+  <li>Press <strong>X</strong> on the <code class="highlighter-rouge">enso.vpk</code> file to install it
+    <ul>
+      <li>Only if you have previously installed HENkaku Ensō</li>
+    </ul>
+  </li>
+  <li>Press <strong>Triangle</strong> on the <code class="highlighter-rouge">PSP2UPDATE.PUP</code> file and select “Move”</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:app/UPDATE365/</code></li>
+  <li>Press <strong>Triangle</strong> and then select “Paste”
+    <ul>
+      <li>The ‘PSP2UPDAT.PUP’ file should be there</li>
+    </ul>
+  </li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:tai</code></li>
+  <li>Move any user-made plugins to another folder
+    <ul>
+      <li>e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.</li>
+    </ul>
+  </li>
+  <li>Navigate to <code class="highlighter-rouge">ur0:tai</code></li>
+  <li>Move any user-made plugins to another folder</li>
+  <li>Exit MolecularShell</li>
+  <li>Open the System Settings application</li>
+  <li>Select “HENkaku Settings”</li>
+  <li>Select “Unlink Memory Card”
+    <ul>
+      <li>If you do not do this, you will not be able to use your memory card on 3.65</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="uninstalling-henkaku-ensō">Uninstalling HENkaku Ensō</h3>
+<hr />
+
+<p>If you never installed Ensō, this doesn’t apply to you and you can skip to the next section.</p>
+
+<ol>
+  <li>Open up the HENkaku Ensō application you installed earlier</li>
+  <li>Read what’s on screen and then press <strong>O</strong></li>
+  <li>Press <strong>Triangle</strong> to uninstall HENkaku Ensō</li>
+  <li>Reboot when prompted</li>
+</ol>
+
+<h3 id="backing-up-vitashell">Backing up VitaShell</h3>
+<hr />
+
+<p>We will now make a backup of VitaShell on your computer so you can restore it if you lose it on 3.65.</p>
+
+<ol>
+  <li>Download and install the CMA software onto your computer</li>
+  <li>Connect your PS Vita to your computer via a USB cable or network connection</li>
+  <li>Open the “Content Manager” application on your PS Vita</li>
+  <li>Select “Copy Content”</li>
+  <li>Select “PS Vita System -&gt; PC”</li>
+  <li>Select “Applications”</li>
+  <li>Select “PS Vita”</li>
+  <li>Select “VitaShell”</li>
+  <li>Click “Copy” in the right hand corner</li>
+  <li>Select “Okay”
+    <ul>
+      <li>Overwrite any copies previously saved</li>
+      <li>The copy will be saved in <code class="highlighter-rouge">Documents/PS Vita/APP</code> on your computer</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="installing-henkaku-ensō-for-365">Installing HENkaku Ensō for 3.65</h3>
+<hr />
+
+<ol>
+  <li>Reboot your device</li>
+  <li>Open the Web Browser
+    <ul>
+      <li>Do not open any other apps</li>
+    </ul>
+  </li>
+  <li>Go to <a href="http://go.henkaku.xyz" target="_blank">http://go.henkaku.xyz</a></li>
+  <li>Once HENkaku is installed, launch the HENkaku Ensō 3.65 Update application</li>
+  <li>Follow the on-screen instructions</li>
+  <li>Enjoy!</li>
+</ol>
+
+<p>HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you notice any issues with my guide, please contact me on <a href="/help/discord/">Discord</a>.</p>
+
+<p>You may now also move back the user-made plugins from <code class="highlighter-rouge">ux0:tai</code> and <code class="highlighter-rouge">ur0:tai</code>. Some may not work however as they might not have been updated to support 3.65.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright">&copy; 2018 Emily - <a href="https://cfw.guide/">Home</a></div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
