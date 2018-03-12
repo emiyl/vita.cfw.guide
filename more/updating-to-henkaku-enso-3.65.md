@@ -86,20 +86,6 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 18. Navigate to `ur0:tai`
 19. Move any user-made plugins to another folder
 20. Exit MolecularShell
-21. Open the System Settings application
-22. Select "HENkaku Settings"
-23. Select "Unlink Memory Card"
-  - If you do not do this, you will not be able to use your memory card on 3.65
-
-### Uninstalling HENkaku Ensō
----
-
-If you never installed Ensō, this doesn't apply to you and you can skip to the next section.
-
-1. Open up the HENkaku Ensō application you installed earlier
-2. Read what's on screen and then press **O**
-3. Press **Triangle** to uninstall HENkaku Ensō
-4. Reboot when prompted
 
 ### Backing up VitaShell
 ---
@@ -118,6 +104,21 @@ We will now make a backup of VitaShell on your computer so you can restore it if
 10. Select "Okay"
   - Overwrite any copies previously saved
   - The copy will be saved in `Documents/PS Vita/APP` on your computer
+21. Exit Content Manager
+21. Open the System Settings application
+22. Select "HENkaku Settings"
+23. Select "Unlink Memory Card"
+  - If you do not do this, you will not be able to use your memory card on 3.65
+
+### Uninstalling HENkaku Ensō
+---
+
+If you never installed Ensō, this doesn't apply to you and you can skip to the next section.
+
+1. Open up the HENkaku Ensō application you installed earlier
+2. Read what's on screen and then press **O**
+3. Press **Triangle** to uninstall HENkaku Ensō
+4. Reboot when prompted
 
 ### Installing HENkaku Ensō for 3.65
 ---
