@@ -12,6 +12,9 @@ You can now update your 3.60 HENkaku enabled PS Vita to 3.65, while keeping HENk
 <p>If you have not yet installed HENkaku, follow <a href="/guide/installing-henkaku/">this guide</a>. Do not proceed to installing HENkaku Ensō.</p></div>
 
 ## Important
+
+<p class="notice">If you have a Vita 1000, you <b>must</b> have a <b>memory card</b> to update to 3.65. There is no way around this.</p>
+
 If you do not follow this guide correctly, you could lose homebrew access, with **no way to get it back!**
 
 Only follow this guide if you want to install games which require a firmware version higher than 3.61!
