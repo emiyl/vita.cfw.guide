@@ -60,6 +60,9 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
   - Make sure MolecularShell is still installed
   - [Reinstall HENkaku](/guide/installing-henkaku/#instructions){:target="_blank"} while holding down **R** to install it
 2. Open MolecularShell on your Vita
+3. Open `ux0`
+3. Go down to the `VitaShell` directory
+3. Press **Triangle** and then select "Delete"
 3. Press **Select**
 4. Open your FTP client on your computer
 5. Type in the IP Address and Port shown on your Vita
