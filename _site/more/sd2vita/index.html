@@ -342,7 +342,7 @@
       <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
     </ul>
   </li>
-  <li>The latest release of <a href="https://github.com/Applelo/SwitchSD2Vita/releases" target="_blank">Switch SD2Vita</a></li>
+  <li>The latest release of <a href="https://github.com/ArkSource/gamecard-microsd/releases/latest/" target="_blank">gamecard-microsd</a></li>
 </ul>
 
 <h2 id="instructions">Instructions</h2>
@@ -354,22 +354,23 @@
   <li>Open your FTP client on your computer</li>
   <li>Type in the IP Address and Port shown on your Vita</li>
   <li>Insert your MicroSD Card into your computer</li>
-  <li>Backup your Memory Card’s contents to your MicroSD card</li>
+  <li>Copy the contents of <code class="highlighter-rouge">ux0:</code> to your MicroSD card</li>
   <li>Eject your MicroSD Card and put it into your SD2Vita card</li>
   <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
-  <li>Transfer the Switch SD2Vita <code class="highlighter-rouge">.vpk</code> file</li>
+  <li>Transfer the <code class="highlighter-rouge">gamesd.skprx</code> file</li>
   <li>Press <strong>O</strong> to close the FTP server</li>
   <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
-  <li>Press <strong>X</strong> to install the Switch SD2Vita <code class="highlighter-rouge">.vpk</code> file</li>
-  <li>Close MolecularShell and open Switch SD2Vita from the Home Menu</li>
-  <li>Choose where to mount your SD Card and Memory Card
-    <ul>
-      <li>Select <strong>Switch to ux0</strong> to mount your SD Card as <code class="highlighter-rouge">ux0</code> and your memory card as <code class="highlighter-rouge">uma0</code></li>
-      <li>Select <strong>Switch to uma0</strong> to mount your SD Card as <code class="highlighter-rouge">uma0</code> and your memory card as <code class="highlighter-rouge">ux0</code></li>
-    </ul>
-  </li>
+  <li>Go to the <code class="highlighter-rouge">gamesd.skprx</code> file and press <strong>Triangle</strong></li>
+  <li>Select “Copy”</li>
+  <li>Navigate to <code class="highlighter-rouge">ur0:tai</code> on your SD2Vita</li>
+  <li>Press <strong>Triangle</strong> and select “Paste”</li>
+  <li>Open <code class="highlighter-rouge">config.txt</code></li>
+  <li>Go to <code class="highlighter-rouge">*KERNEL</code> and press <strong>Triangle</strong></li>
+  <li>Select “Insert Empty Line”</li>
+  <li>Type into the new line <code class="highlighter-rouge">ur0:tai/gamesd.skprx</code></li>
+  <li>Exit and save changed</li>
   <li>Insert your SD2Vita card into the Vita with the MicroSD card inserted</li>
-  <li>Select <strong>Reboot your PS Vita</strong></li>
+  <li>Reboot your Vita</li>
 </ol>
 
         
