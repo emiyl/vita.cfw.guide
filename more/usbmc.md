@@ -7,8 +7,6 @@ sidebar:
 
 USBMC, just like SD2Vita, is a solution to Sony's expensive proprietry memory cards. It allows you to use USB memory with a PSTV, or a microSD card with PSVD boards on 3G Vita 1000s.
 
-<p class="notice">This does not work on 3.65</p>
-
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
