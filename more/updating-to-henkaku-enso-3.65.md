@@ -58,7 +58,8 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 ### Preparing
 ---
 
-1. Make sure SD2Vita is not enabled and the SD Card is not inserted
+1. Remove any microSD cards or USB devices
+	- Alternatively disable the plugins in `tai/config.txt`
 1. Delete VitaShell if it's already installed
   - Make sure MolecularShell is still installed
   - [Reinstall HENkaku](/guide/installing-henkaku/#instructions){:target="_blank"} while holding down **R** to install it
