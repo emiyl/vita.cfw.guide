@@ -82,8 +82,8 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
   - The 'PSP2UPDAT.PUP' file should be there
 16. Open `ux0:tai/config.txt`
 17. Add a hashtag before each user-made plugin
-  - e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.
-  - e.g. turn `ux0:tai/gamesd.skrpx` to `#ux0:tai/gamesd.skrpx`
+	- e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.
+	- e.g. turn `ux0:tai/gamesd.skrpx` to `#ux0:tai/gamesd.skrpx`
 18. Open`ur0:tai/config.txt`
 19. Add a hashtag before each user-made plugin
 20. Exit MolecularShell
