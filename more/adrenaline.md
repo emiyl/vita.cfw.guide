@@ -11,7 +11,7 @@ Adrenaline is an extremely useful piece of software which lets you run PS1 and P
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
 - The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest){:target="_blank"}
-- The latest release of [PSP Homebrew Browser](https://cdn.rawgit.com/emiyl/vita.cfw.guide/384c710f/assets/files/PSPhbb_dev.vpk)
+- The latest release of [PSP Homebrew Browser](/assets/files/PSPhbb_dev.vpk)
 
 ## Instructions
 Make sure your Vita and computer are connected to the same internet
