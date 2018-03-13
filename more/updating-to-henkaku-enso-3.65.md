@@ -80,11 +80,12 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 14. Navigate to `ux0:app/UPDATE365/`
 15. Press **Triangle** and then select "Paste"
   - The 'PSP2UPDAT.PUP' file should be there
-16. Navigate to `ux0:tai`
-17. Move any user-made plugins to another folder
-  - e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.
-18. Navigate to `ur0:tai`
-19. Move any user-made plugins to another folder
+16. Open `ux0:tai/config.txt`
+17. Add a hashtag before each user-made plugin
+  - e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.
+  - e.g. turn `ux0:tai/gamesd.skrpx` to `#ux0:tai/gamesd.skrpx`
+18. Open`ur0:tai/config.txt`
+19. Add a hashtag before each user-made plugin
 20. Exit MolecularShell
 
 ### Backing up VitaShell
