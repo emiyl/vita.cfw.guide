@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Get Started - Vita Guide</title>
+<!-- begin _includes/seo.html --><title>Installing VitaShell to System - Vita Guide</title>
 <meta name="description" content="A complete PS Vita hacking guide, from stock to Ensō.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="Vita Guide">
-<meta property="og:title" content="Get Started">
-<meta property="og:url" content="http://localhost:4000/guide/">
+<meta property="og:title" content="Installing VitaShell to System">
+<meta property="og:url" content="http://localhost:4000/more/installing-vitashell-to-system/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/guide/">
+<link rel="canonical" href="http://localhost:4000/more/installing-vitashell-to-system/">
 
 
 
@@ -281,7 +281,7 @@
             
             
 
-            <li><a href="http://localhost:4000/more/installing-vitashell-to-system/" class="">Installing VitaShell to System</a></li>
+            <li><a href="http://localhost:4000/more/installing-vitashell-to-system/" class="active">Installing VitaShell to System</a></li>
           
         </ul>
         
@@ -323,7 +323,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Get Started">
+    <meta itemprop="headline" content="Installing VitaShell to System">
     
     
     
@@ -331,7 +331,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Get Started
+          <h1 class="page__title" itemprop="headline">Installing VitaShell to System
 </h1>
           
         </header>
@@ -341,42 +341,76 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        <p>Firstly, you’ll need to find out your PS Vita’s firmware version. You can find this by going to the Settings application and tapping System and then System Information. Your version should be displayed on the top of your screen.</p>
+        <p>After installing HENkaku Enso on 3.65, you can lose VitaShell if you format the system. If you haven’t made a backup, you could lose the ability to install homebrew. So what you can do instead, is install it to the system, which will allow you to keep VitaShell even after formatting.</p>
 
-<center>
-	<table>
-		<colgroup>
-			<col span="1" style="width: 10%;" />
-			<col span="1" style="width: 10%;" />
-			<col span="1" style="width: 40%;" />
-			<col span="1" style="width: 40%;" />
-		</colgroup>
-		<tbody>
-			<tr>
-				<th>From</th>
-				<th>To</th>
-				<th></th>
-			</tr>
-			<tr>
-				<td>1.00</td>
-				<td>3.57</td>
-				<td><a href="/guide/updating-to-3.60">Updating to 3.60</a></td>
-			</tr>
-			<tr>
-				<td>3.60</td>
-				<td>3.60</td>
-				<td><a href="/guide/installing-henkaku">Installing HENkaku</a></td>
-			</tr>
-			<tr>
-				<td>3.61</td>
-				<td>3.67</td>
-				<td><a href="/guide/blocking-updates">Blocking Updates</a></td>
-			</tr>
-		</tbody>
-	</table>
-</center>
+<h2 id="important">Important</h2>
 
-<p><img src="/assets/images/vitaversion.jpg" alt="Vita Version 3.60" title="Vita Version 3.60" /></p>
+<p>This guide is potentially <strong>very dangerous</strong>. If you mess with any other files during this guide, you could risk losing homebrew with no way to get it back!</p>
+
+<p>If you are inexperienced with console hacking, I recommend you just make a <a href="/more/updating-to-henkaku-enso-3.65/#backing-up-vitashell/">backup</a>. Failure to follow this guide <strong>exactly</strong> could leave you without homebrew.</p>
+
+<p>I will not be held responsible for any damage done to your system. If you lose homebrew access, that’ll be your fault for not reading the guide properly.</p>
+
+<p>You must have VitaShell already installed beforehand.</p>
+
+<p><strong>Read the guide really carefully.</strong></p>
+
+<p>Now, let’s begin.</p>
+
+<h2 id="downloads">Downloads</h2>
+<ul>
+  <li>An FTP Client
+    <ul>
+      <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
+    </ul>
+  </li>
+  <li>The latest release of <a href="https://vitadb.rinnegatamante.it/get_hb_link.php?id=151">VitaRW</a></li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Open VitaShell on your Vita</li>
+  <li>Press <strong>Select</strong></li>
+  <li>Open your FTP client on your computer</li>
+  <li>Type in the IP Address and Port shown on your Vita</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
+  <li>Transfer the <code class="highlighter-rouge">VitaRW.vpk</code> file to your Vita</li>
+  <li>Press <strong>O</strong> on your Vita to close the server</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
+  <li>Press <strong>X</strong> on the <code class="highlighter-rouge">VitaRW.vpk</code> file to install it
+    <ul>
+      <li>Make sure you have <a href="/guide/installing-henkaku/#enabling-unsafe-homebrew" target="_blank">unsafe homebrew enabled</a></li>
+    </ul>
+  </li>
+  <li>Close VitaShell and open VitaRW</li>
+  <li>Wait for it to do its thing, it’ll close automatically
+    <ul>
+      <li>If it looks like it’s frozen, just wait a bit</li>
+    </ul>
+  </li>
+  <li>Open VitaShell again</li>
+  <li>Navigate to <code class="highlighter-rouge">ux0:app/VITASHELL/</code></li>
+  <li>Go to <code class="highlighter-rouge">eboot.bin</code> and press <strong>Triangle</strong></li>
+  <li>Navigate to <code class="highlighter-rouge">vs0:app/NPXS10000/</code>
+    <ul>
+      <li>Make sure you are inside that directory</li>
+      <li>Make very sure you are inside that directory</li>
+    </ul>
+  </li>
+  <li>Press <strong>Triangle</strong> and then paste</li>
+  <li>Turn off your Vita</li>
+  <li>Hold down the <strong>Power Button</strong> + <strong>PS Button</strong> + <strong>R</strong> until the Playstation Logo appears</li>
+  <li>Select “Rebuild Database”
+    <ul>
+      <li>This will reset your <code class="highlighter-rouge">tai/config.txt</code> on 3.65, so back it up beforehand</li>
+    </ul>
+  </li>
+  <li>Confirm and wait for it to finish.</li>
+  <li>Uninstall VitaRW</li>
+</ol>
+
+<p>VitaShell should now be installed inside the Near application. Just launch Near to use VitaShell. It’ll have an annoying bar on the top, so you should probably have the real VitaShell installed too, but I imagine this will only be useful for reinstalling it after a format.</p>
 
         
       </section>

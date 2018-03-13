@@ -33,6 +33,8 @@ side:
         url: /more/enabling-downloads/
       - title: "HENkaku Enso 3.65"
         url: /more/updating-to-henkaku-enso-3.65/
+      - title: "Installing VitaShell to System"
+        url: /more/installing-vitashell-to-system/
 
   - title: Help
     children:
