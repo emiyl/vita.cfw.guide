@@ -7,8 +7,6 @@ sidebar:
 
 SD2Vita is a microSD to gamecard adapter for the PS Vita. This means that you can use a microSD card as storage for your Vita instead of Sony's expensive proprietry memory cards.
 
-If you installed HENkaku using the No-PC route of my guide, download the `.vpk` files from below and install them in VitaShell from `ux0:download`.
-
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}

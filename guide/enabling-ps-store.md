@@ -7,6 +7,8 @@ sidebar:
 
 On July 29th, Sony disabled activation on HENkaku-enabled devices. This means that if you didn’t activate your device before then, you can’t use the PS Store.
 
+<p class="notice">This is not needed on HENkaku Enso 3.65</p>
+
 [ReNpDrm](http://renpdrm.customprotocol.com/release_page.php){:target="_blank"} and [ReStore](http://renpdrm.customprotocol.com/release_page.php){:target="_blank"} are plugins by [CelesteBlue](https://twitter.com/CelesteBlue123){:target="_blank"} that allow you to activate your Vita and use the PS Store.
 
 Bans are _theoretically_ possible, however none have been reported. Use this software at your own risk. CelesteBlue or I will not take responsibility for anything that happens to your device.

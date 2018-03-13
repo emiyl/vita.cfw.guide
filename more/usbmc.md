@@ -7,7 +7,7 @@ sidebar:
 
 USBMC, just like SD2Vita, is a solution to Sony's expensive proprietry memory cards. It allows you to use USB memory with a PSTV, or a microSD card with PSVD boards on 3G Vita 1000s.
 
-If you installed HENkaku using the No-PC route of my guide, download the `.vpk` files from below and install them in VitaShell from `ux0:download`.
+<p class="notice">This does not work on 3.65</p>
 
 ## Downloads
 - An FTP Client

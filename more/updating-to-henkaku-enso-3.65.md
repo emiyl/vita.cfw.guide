@@ -83,7 +83,7 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 
 13. Press **X** on the `enso.vpk` file to install it
   - Only if you have previously installed HENkaku Ensō
-13. Press **Triangle** on the `PSP2UPDATE.PUP` file and select "Move"
+13. Press **Triangle** on the `PSP2UPDAT.PUP` file and select "Move"
 14. Navigate to `ux0:app/UPDATE365/`
 15. Press **Triangle** and then select "Paste"
   - The 'PSP2UPDAT.PUP' file should be there

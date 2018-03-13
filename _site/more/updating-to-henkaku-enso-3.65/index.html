@@ -273,7 +273,7 @@
             
             
 
-            <li><a href="http://localhost:4000/more/updating-to-henkaku-enso-3.65/" class="active">Updating to HENkaku Enso 3.65</a></li>
+            <li><a href="http://localhost:4000/more/updating-to-henkaku-enso-3.65/" class="active">HENkaku Enso 3.65</a></li>
           
         </ul>
         
@@ -342,8 +342,8 @@
   <li><a href="#instructions">Instructions</a>
     <ul>
       <li><a href="#preparing">Preparing</a></li>
-      <li><a href="#uninstalling-henkaku-ensō">Uninstalling HENkaku Ensō</a></li>
       <li><a href="#backing-up-vitashell">Backing up VitaShell</a></li>
+      <li><a href="#uninstalling-henkaku-ensō">Uninstalling HENkaku Ensō</a></li>
       <li><a href="#installing-henkaku-ensō-for-365">Installing HENkaku Ensō for 3.65</a></li>
     </ul>
   </li>
@@ -359,6 +359,9 @@
 <p>If you have not yet installed HENkaku, follow <a href="/guide/installing-henkaku/">this guide</a>. Do not proceed to installing HENkaku Ensō.</p></div>
 
 <h2 id="important">Important</h2>
+
+<p class="notice">If you have a Vita 1000, you <b>must</b> have a <b>memory card</b> to update to 3.65. There is no way around this.</p>
+
 <p>If you do not follow this guide correctly, you could lose homebrew access, with <strong>no way to get it back!</strong></p>
 
 <p>Only follow this guide if you want to install games which require a firmware version higher than 3.61!</p>
@@ -419,6 +422,11 @@
 <hr />
 
 <ol>
+  <li>Remove any microSD cards or USB devices
+    <ul>
+      <li>Alternatively disable the plugins in <code class="highlighter-rouge">tai/config.txt</code></li>
+    </ul>
+  </li>
   <li>Delete VitaShell if it’s already installed
     <ul>
       <li>Make sure MolecularShell is still installed</li>
@@ -426,6 +434,9 @@
     </ul>
   </li>
   <li>Open MolecularShell on your Vita</li>
+  <li>Open <code class="highlighter-rouge">ux0</code></li>
+  <li>Go down to the <code class="highlighter-rouge">VitaShell</code> directory</li>
+  <li>Press <strong>Triangle</strong> and then select “Delete”</li>
   <li>Press <strong>Select</strong></li>
   <li>Open your FTP client on your computer</li>
   <li>Type in the IP Address and Port shown on your Vita</li>
@@ -457,34 +468,16 @@
       <li>The ‘PSP2UPDAT.PUP’ file should be there</li>
     </ul>
   </li>
-  <li>Navigate to <code class="highlighter-rouge">ux0:tai</code></li>
-  <li>Move any user-made plugins to another folder
+  <li>Open <code class="highlighter-rouge">ux0:tai/config.txt</code></li>
+  <li>Add a hashtag before each user-made plugin
     <ul>
       <li>e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.</li>
+      <li>e.g. turn <code class="highlighter-rouge">ux0:tai/gamesd.skrpx</code> to <code class="highlighter-rouge">#ux0:tai/gamesd.skrpx</code></li>
     </ul>
   </li>
-  <li>Navigate to <code class="highlighter-rouge">ur0:tai</code></li>
-  <li>Move any user-made plugins to another folder</li>
+  <li>Open<code class="highlighter-rouge">ur0:tai/config.txt</code></li>
+  <li>Add a hashtag before each user-made plugin</li>
   <li>Exit MolecularShell</li>
-  <li>Open the System Settings application</li>
-  <li>Select “HENkaku Settings”</li>
-  <li>Select “Unlink Memory Card”
-    <ul>
-      <li>If you do not do this, you will not be able to use your memory card on 3.65</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="uninstalling-henkaku-ensō">Uninstalling HENkaku Ensō</h3>
-<hr />
-
-<p>If you never installed Ensō, this doesn’t apply to you and you can skip to the next section.</p>
-
-<ol>
-  <li>Open up the HENkaku Ensō application you installed earlier</li>
-  <li>Read what’s on screen and then press <strong>O</strong></li>
-  <li>Press <strong>Triangle</strong> to uninstall HENkaku Ensō</li>
-  <li>Reboot when prompted</li>
 </ol>
 
 <h3 id="backing-up-vitashell">Backing up VitaShell</h3>
@@ -508,6 +501,26 @@
       <li>The copy will be saved in <code class="highlighter-rouge">Documents/PS Vita/APP</code> on your computer</li>
     </ul>
   </li>
+  <li>Exit Content Manager</li>
+  <li>Open the System Settings application</li>
+  <li>Select “HENkaku Settings”</li>
+  <li>Select “Unlink Memory Card”
+    <ul>
+      <li>If you do not do this, you will not be able to use your memory card on 3.65</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="uninstalling-henkaku-ensō">Uninstalling HENkaku Ensō</h3>
+<hr />
+
+<p>If you never installed Ensō, this doesn’t apply to you and you can skip to the next section.</p>
+
+<ol>
+  <li>Open up the HENkaku Ensō application you installed earlier</li>
+  <li>Read what’s on screen and then press <strong>O</strong></li>
+  <li>Press <strong>Triangle</strong> to uninstall HENkaku Ensō</li>
+  <li>Reboot when prompted</li>
 </ol>
 
 <h3 id="installing-henkaku-ensō-for-365">Installing HENkaku Ensō for 3.65</h3>
@@ -528,7 +541,7 @@
 
 <p>HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you notice any issues with my guide, please contact me on <a href="/help/discord/">Discord</a>.</p>
 
-<p>You may now also move back the user-made plugins from <code class="highlighter-rouge">ux0:tai</code> and <code class="highlighter-rouge">ur0:tai</code>. Some may not work however as they might not have been updated to support 3.65.</p>
+<p>You may now uncomment any plugins in the <code class="highlighter-rouge">config.txt</code>. Some plugins may not work as they might not have been updated to support 3.65. Make sure to download the latest versions before using them.</p>
 
         
       </section>
