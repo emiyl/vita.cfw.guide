@@ -134,4 +134,4 @@ If you never installed Ensō, this doesn't apply to you and you can skip to the 
 
 HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you notice any issues with my guide, please contact me on [Discord](/help/discord/).
 
-You may now also move back the user-made plugins from `ux0:tai` and `ur0:tai`. Some may not work however as they might not have been updated to support 3.65.
+Some plugins may not work as they might not have been updated to support 3.65. Make sure to download the latest versions before using them.
