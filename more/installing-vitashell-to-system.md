@@ -36,6 +36,7 @@ Now, let's begin.
 8. Navigate to `ux0:data` on your Vita
 9. Press **X** on the `VitaRW.vpk` file to install it
 	- Make sure you have [unsafe homebrew enabled](/guide/installing-henkaku/#enabling-unsafe-homebrew){:target="_blank"}
+10. Back up your `tai:config.txt` to somewhere safe
 10. Close VitaShell and open VitaRW
 11. Wait for it to do its thing, it'll close automatically
   - If it looks like it's frozen, just wait a bit
@@ -49,8 +50,8 @@ Now, let's begin.
 17. Turn off your Vita
 18. Hold down the **Power Button** + **PS Button** + **R** until the Playstation Logo appears
 19. Select "Rebuild Database"
-  - This will reset your `tai/config.txt` on 3.65, so back it up beforehand
 20. Confirm and wait for it to finish.
+21. Open VitaShell and restore your `tai/config.txt` backup
 21. Uninstall VitaRW
 
 VitaShell should now be installed inside the Near application. Just launch Near to use VitaShell. It'll have an annoying bar on the top, so you should probably have the real VitaShell installed too, but I imagine this will only be useful for reinstalling it after a format.
