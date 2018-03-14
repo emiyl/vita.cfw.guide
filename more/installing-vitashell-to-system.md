@@ -9,9 +9,7 @@ After installing HENkaku Enso on 3.65, you can lose VitaShell if you format the 
 
 ## Important
 
-This guide is potentially **very dangerous**. If you mess with any other files during this guide, you could risk losing homebrew with no way to get it back!
-
-If you are inexperienced with console hacking, I recommend you just make a [backup](/more/updating-to-henkaku-enso-3.65/#backing-up-vitashell/). Failure to follow this guide **exactly** could leave you without homebrew.
+The software used in this guide (VitaRW) is potentially **very dangerous**. If you mess with any other files while using it, you could risk losing homebrew with no way to get it back!
 
 I will not be held responsible for any damage done to your system. If you lose homebrew access, that'll be your fault for not reading the guide properly.
 
