@@ -78,7 +78,7 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 9. Transfer the `PSP2UPDAT.PUP` file to your Vita
 10. Press **O** on your Vita to close the server
 11. Navigate to `ux0:data` on your Vita
-12. Press **X** on the `.vpk` files to install both of the applications you downloaded
+12. Press **X** on the VitaShell and updater `.vpk` files to install both of the homebrew applications
 	- Make sure you have [unsafe homebrew enabled](/guide/installing-henkaku/#enabling-unsafe-homebrew){:target="_blank"}
 
 13. Press **X** on the `enso.vpk` file to install it
