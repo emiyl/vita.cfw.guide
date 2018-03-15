@@ -5,8 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-This is a list of system titles I would reommend injecting VitaShell into.
-
+This is a list of system titles I would reommend injecting VitaShell into. Installing to other apps may result in a brick or other damage.
 <table>
   <tr>
     <th>Application</th>
