@@ -40,6 +40,11 @@ Now, let's begin.
 11. Wait for it to do its thing, it'll close automatically
   - If it looks like it's frozen, just wait a bit
 12. Open VitaShell again
+13. Navigate to `vs0:app/NPXS10000/`
+14. Go to `eboot.bin` and press **Triangle**
+15. Navigate to `ux0:data`
+16. Press **Triangle** and then paste
+	- This will be your backup of near and will be the only way to restore the app
 13. Navigate to `ux0:app/VITASHELL/`
 14. Go to `eboot.bin` and press **Triangle**
 15. Navigate to `vs0:app/NPXS10000/`
