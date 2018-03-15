@@ -5,23 +5,39 @@ sidebar:
   nav: "side"
 ---
 
-### NEAR
-NPXS10000
+This is a list of system titles I would reommend injecting VitaShell into.
 
-### PARTY
-NPXS10001
-
-### PHOTOS
-NPXS10004
-
-### MUSIC
-NPXS10009
-
-### VIDEO
-NPXS10010
-
-### CALENDAR
-NPXS10091
-
-### PARENTAL CONTROLS
-NPXS10094
+<table>
+  <tr>
+    <th>Application</th>
+    <th>Title ID</th>
+  </tr>
+  <tr>
+    <td>Near</td>
+    <td>NPXS10000</td>
+  </tr>
+  <tr>
+    <td>Party</td>
+    <td>NPXS10001</td>
+  </tr>
+  <tr>
+    <td>Photos</td>
+    <td>NPXS10004</td>
+  </tr>
+  <tr>
+    <td>Music</td>
+    <td>NPXS10009</td>
+  </tr>
+  <tr>
+    <td>Video</td>
+    <td>NPXS10010</td>
+  </tr>
+  <tr>
+    <td>Calendar</td>
+    <td>NPXS10091</td>
+  </tr>
+  <tr>
+    <td>Parental Controls</td>
+    <td>NPXS10094</td>
+  </tr>
+</table>
