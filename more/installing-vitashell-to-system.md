@@ -53,7 +53,7 @@ Now, let's begin.
 16. Press **Triangle** and then paste
 17. Navigate to `ur0:shell/db/`
 18. Delete `app.db`
-19. Turn off your Vita
+19. Reboot your Vita
 20. Uninstall VitaRW
 
 VitaShell should now be installed inside the Near application. Just launch Near to use VitaShell. It'll have an annoying bar on the top, so you should probably have the real VitaShell installed too, but I imagine this will only be useful for reinstalling it after a format.
