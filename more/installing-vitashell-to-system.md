@@ -13,7 +13,7 @@ The software used in this guide (VitaRW) is potentially **very dangerous**. If y
 
 I will not be held responsible for any damage done to your system. If you lose homebrew access, that'll be your fault for not reading the guide properly.
 
-You must have VitaShell already installed beforehand.
+You must have VitaShell already installed beforehand. This will replace the near app, so near will not be usable after this.
 
 **Read the guide really carefully.**
 
