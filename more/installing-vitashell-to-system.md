@@ -7,7 +7,13 @@ sidebar:
 
 After installing HENkaku Enso on 3.65, you can lose VitaShell if you format the system. If you haven't made a backup, you could lose the ability to install homebrew. So what you can do instead, is install it to the system, which will allow you to keep VitaShell even after formatting.
 
-This guide will replace the near app, so near will not be usable after this. This guide involves rebuilding the database, which will reset your icon layout. This step is necessary and VitaShell will not work on vs0 without doing this.
+This guide will replace a system app, so that application will not be usable after this. This guide involves rebuilding the database, which will reset your icon layout. This step is necessary and VitaShell will not work on vs0 without doing this.
+
+You will be able to place VitaShell inside the following applications:
+- near
+- Parental Controls
+- Party
+- Calendar
 
 ## Downloads
 - An FTP Client
