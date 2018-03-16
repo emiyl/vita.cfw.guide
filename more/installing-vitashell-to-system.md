@@ -35,4 +35,4 @@ You will be able to place VitaShell inside the following applications:
 10. Close VitaShell and open HBInjector
 11. Follow the on-screen instructions
 
-VitaShell should now be installed inside the Near application. Just launch Near to use VitaShell. It'll have an annoying bar on the top, so you should probably have the real VitaShell installed too, but I imagine this will only be useful for reinstalling it after a format.
+VitaShell should now be installed inside your selected system application. Just launch it to use VitaShell.
