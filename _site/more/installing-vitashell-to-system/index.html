@@ -343,19 +343,7 @@
     <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
         <p>After installing HENkaku Enso on 3.65, you can lose VitaShell if you format the system. If you haven’t made a backup, you could lose the ability to install homebrew. So what you can do instead, is install it to the system, which will allow you to keep VitaShell even after formatting.</p>
 
-<h2 id="important">Important</h2>
-
-<p>This guide is potentially <strong>very dangerous</strong>. If you mess with any other files during this guide, you could risk losing homebrew with no way to get it back!</p>
-
-<p>If you are inexperienced with console hacking, I recommend you just make a <a href="/more/updating-to-henkaku-enso-3.65/#backing-up-vitashell/">backup</a>. Failure to follow this guide <strong>exactly</strong> could leave you without homebrew.</p>
-
-<p>I will not be held responsible for any damage done to your system. If you lose homebrew access, that’ll be your fault for not reading the guide properly.</p>
-
-<p>You must have VitaShell already installed beforehand.</p>
-
-<p><strong>Read the guide really carefully.</strong></p>
-
-<p>Now, let’s begin.</p>
+<p>This guide will replace the near app, so near will not be usable after this. This guide involves rebuilding the database, which will reset your icon layout. This step is necessary and VitaShell will not work on vs0 without doing this.</p>
 
 <h2 id="downloads">Downloads</h2>
 <ul>
@@ -364,7 +352,7 @@
       <li>For Windows, I’d recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> or <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP</a></li>
     </ul>
   </li>
-  <li>The latest release of <a href="https://vitadb.rinnegatamante.it/get_hb_link.php?id=151">VitaRW</a></li>
+  <li>The latest release of <a href="https://github.com/emiyl/HBInjector/releases/latest/" target="_blank">HBInjector</a></li>
 </ul>
 
 <h2 id="instructions">Instructions</h2>
@@ -375,39 +363,16 @@
   <li>Open your FTP client on your computer</li>
   <li>Type in the IP Address and Port shown on your Vita</li>
   <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
-  <li>Transfer the <code class="highlighter-rouge">VitaRW.vpk</code> file to your Vita</li>
+  <li>Transfer the <code class="highlighter-rouge">HBInjector.vpk</code> file to your Vita</li>
   <li>Press <strong>O</strong> on your Vita to close the server</li>
   <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on your Vita</li>
-  <li>Press <strong>X</strong> on the <code class="highlighter-rouge">VitaRW.vpk</code> file to install it
+  <li>Press <strong>X</strong> on the <code class="highlighter-rouge">HBInjector.vpk</code> file to install it
     <ul>
       <li>Make sure you have <a href="/guide/installing-henkaku/#enabling-unsafe-homebrew" target="_blank">unsafe homebrew enabled</a></li>
     </ul>
   </li>
-  <li>Close VitaShell and open VitaRW</li>
-  <li>Wait for it to do its thing, it’ll close automatically
-    <ul>
-      <li>If it looks like it’s frozen, just wait a bit</li>
-    </ul>
-  </li>
-  <li>Open VitaShell again</li>
-  <li>Navigate to <code class="highlighter-rouge">ux0:app/VITASHELL/</code></li>
-  <li>Go to <code class="highlighter-rouge">eboot.bin</code> and press <strong>Triangle</strong></li>
-  <li>Navigate to <code class="highlighter-rouge">vs0:app/NPXS10000/</code>
-    <ul>
-      <li>Make sure you are inside that directory</li>
-      <li>Make very sure you are inside that directory</li>
-    </ul>
-  </li>
-  <li>Press <strong>Triangle</strong> and then paste</li>
-  <li>Turn off your Vita</li>
-  <li>Hold down the <strong>Power Button</strong> + <strong>PS Button</strong> + <strong>R</strong> until the Playstation Logo appears</li>
-  <li>Select “Rebuild Database”
-    <ul>
-      <li>This will reset your <code class="highlighter-rouge">tai/config.txt</code> on 3.65, so back it up beforehand</li>
-    </ul>
-  </li>
-  <li>Confirm and wait for it to finish.</li>
-  <li>Uninstall VitaRW</li>
+  <li>Close VitaShell and open HBInjector</li>
+  <li>Follow the on-screen instructions</li>
 </ol>
 
 <p>VitaShell should now be installed inside the Near application. Just launch Near to use VitaShell. It’ll have an annoying bar on the top, so you should probably have the real VitaShell installed too, but I imagine this will only be useful for reinstalling it after a format.</p>
