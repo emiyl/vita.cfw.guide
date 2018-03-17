@@ -16,8 +16,6 @@ side:
         url: /guide/installing-henkaku/
       - title: "Installing HENKaku Ensō"
         url: /guide/installing-henkaku-enso/
-      - title: "Enabling PS Store"
-        url: /guide/enabling-ps-store/
       - title: "Blocking Updates"
         url: /guide/blocking-updates/
 

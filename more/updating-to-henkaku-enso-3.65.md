@@ -44,7 +44,7 @@ Many plugins and applications have not been updated to support 3.65. As such, so
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
 - The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/){:target="_blank"}
   - You must have v1.82 or later
-  - VitaShell v1.82 and earlier no longer automatically updates, so you will need to download it again if it's not already installed
+  - VitaShell v1.82 and earlier no longer automatically updates, so you will need to download it again if it's not already installed
 - The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases/latest){:target="_blank"}
   - Download both files
 - The latest release of [CMA](http://cma.dl.playstation.net/cma/win/gb/index.html){:target="_blank"}
@@ -113,32 +113,38 @@ We will now make a backup of VitaShell on your computer so you can restore it if
   - Overwrite any copies previously saved
   - The copy will be saved in `Documents/PS Vita/APP` on your computer
 21. Exit Content Manager
-21. Open the System Settings application
-22. Select "HENkaku Settings"
-23. Select "Unlink Memory Card"
-  - If you do not do this, you will not be able to use your memory card on 3.65
 
 ### Uninstalling HENkaku Ensō
 ---
 
 If you never installed Ensō, this doesn't apply to you and you can skip to the next section.
 
-1. Open up the HENkaku Ensō application you installed earlier
+1. Open up the HENkaku Ensō application
 2. Read what's on screen and then press **O**
 3. Press **Triangle** to uninstall HENkaku Ensō
 4. Reboot when prompted
 
+### Unlinking Memory Card
+---
+
+1. Open the System Settings application
+2. Select "HENkaku Settings"
+3. Disable "Enable PSN Spoofing"
+3. Select "Unlink Memory Card"
+  - If you do not do this, you will not be able to use your memory card on 3.65
+
 ### Installing HENkaku Ensō for 3.65
 ---
 
+Do not open any other apps than the guide tells you to until 3.65 has been installed.
+
 1. Reboot your device
 2. Open the Web Browser
-  - Do not open any other apps
 3. Go to [http://go.henkaku.xyz](http://go.henkaku.xyz){:target="_blank"}
-4. Once HENkaku is installed, launch the HENkaku Ensō 3.65 Update application
-5. Follow the on-screen instructions
-6. Enjoy!
+7. Launch the HENkaku Ensō 3.65 Update application
+8. Follow the on-screen instructions
+9. Enjoy!
 
-HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you notice any issues with my guide, please contact me on [Discord](/help/discord/).
+HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you want you can install VitaShell to System to avoid losing it when formatting by following [this guide](/more/installing-vitashell-to-system/).
 
 You may now uncomment any plugins in the `config.txt`. Some plugins may not work as they might not have been updated to support 3.65. Make sure to download the latest versions before using them.

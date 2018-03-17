@@ -28,4 +28,4 @@ HENkaku requires us to relaunch the exploit upon every reboot. This might not be
 13. Press **X** to install Ensō
 	- If it says os0 modifications detected, press **X** to install the 3.60 PUP
 
-<center><a href="/guide/enabling-ps-store"><button class="btn btn--light-outline">Enabling PS Store</button></a></center>
+<center><a href="/guide/blocking-updates"><button class="btn btn--light-outline">Blocking Updates</button></a></center>
