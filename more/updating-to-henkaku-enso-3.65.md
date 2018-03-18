@@ -144,7 +144,7 @@ Do not open any other apps than the guide tells you to until 3.65 has been insta
 3. Go to [http://go.henkaku.xyz](http://go.henkaku.xyz){:target="_blank"}
 7. Launch the HENkaku Ensō 3.65 Update application
 8. Follow the on-screen instructions
-9. Enjoy!
+9. When it reboots to 3.65, make sure to re-enable PSN Spoofing to 3.67
 
 HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you want you can install VitaShell to System to avoid losing it when formatting by following [this guide](/more/installing-vitashell-to-system/).
 
