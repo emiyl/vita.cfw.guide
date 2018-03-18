@@ -17,7 +17,7 @@ You can now update your 3.60 HENkaku enabled PS Vita to 3.65, while keeping HENk
 
 If you do not follow this guide correctly, you could lose homebrew access, with **no way to get it back!**
 
-Only follow this guide if you want to install games which require a firmware version higher than 3.61!
+Only follow this guide if you want to use PSN or install games which require a firmware version higher than 3.61!
 
 Please follow all steps in this guide carefully. I will not be responsible to anything that happens to your device when using this.
 
