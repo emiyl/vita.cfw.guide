@@ -20,6 +20,7 @@ Make sure your Vita and computer are connected to the same internet
 3. Open your FTP client on your computer
 4. Type in the IP Address and Port shown on your Vita
 5. Insert your MicroSD Card into your computer
+6. Format your microSD card
 6. Copy the contents of `ux0` to your microSD card
 7. Eject your MicroSD Card and put it into your SD2Vita card
 8. Navigate to `ux0:data` on the FTP Client
