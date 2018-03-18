@@ -16,7 +16,7 @@ Adrenaline is an extremely useful piece of software which lets you run PS1 and P
 ## Instructions
 Make sure your Vita and computer are connected to the same internet
 
-1. Open MolecularShell on your Vita
+1. Open MolecularShell or VitaShell on your Vita
 2. Press **Select**
 3. Open your FTP client on your computer
 4. Type in the IP Address and Port shown on your Vita

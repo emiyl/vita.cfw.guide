@@ -68,6 +68,7 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 3. Go down to the `VitaShell` directory
 3. Press **Triangle** and then select "Delete"
 3. Press **Select**
+3. Delete the `patch/VITASHELL/` directory
 4. Open your FTP client on your computer
 5. Type in the IP Address and Port shown on your Vita
 6. Navigate to `ux0:data` on the FTP Client

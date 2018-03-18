@@ -22,7 +22,7 @@ You will be able to place VitaShell inside the following applications:
 
 ## Instructions
 
-1. Open VitaShell on your Vita
+1. Open MolecularShell or VitaShell on your Vita
 2. Press **Select**
 3. Open your FTP client on your computer
 4. Type in the IP Address and Port shown on your Vita
