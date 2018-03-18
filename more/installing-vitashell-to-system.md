@@ -11,7 +11,7 @@ This guide will replace a system app, so that application will not be usable aft
 
 You will be able to place VitaShell inside the following applications:
 - near
-- Parental Controls
+- PS3 Remote Play
 - Party
 - Calendar
 
