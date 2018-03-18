@@ -20,7 +20,7 @@ Make sure your Vita and computer are connected to the same internet
 3. Open your FTP client on your computer
 4. Type in the IP Address and Port shown on your Vita
 5. Insert your MicroSD Card into your computer
-6. Copy the contents of `ux0:` to your MicroSD card
+6. Copy the contents of `ux0` to your microSD card
 7. Eject your MicroSD Card and put it into your SD2Vita card
 8. Navigate to `ux0:data` on the FTP Client
 9. Transfer the `gamesd.skprx` file
@@ -28,12 +28,12 @@ Make sure your Vita and computer are connected to the same internet
 11. Navigate to `ux0:data` on your Vita
 12. Go to the `gamesd.skprx` file and press **Triangle**
 13. Select "Copy"
-14. Navigate to `ur0:tai` on your SD2Vita
+14. Navigate to `ur0:tai` on your Vita
 15. Press **Triangle** and select "Paste"
 16. Open `config.txt`
 17. Go to `*KERNEL` and press **Triangle**
 18. Select "Insert Empty Line"
 20. Type into the new line `ur0:tai/gamesd.skprx`
-21. Exit and save changed
+21. Exit and save changes
 22. Insert your SD2Vita card into the Vita with the MicroSD card inserted
-23. Reboot your Vita
+24. Reboot your Vita
