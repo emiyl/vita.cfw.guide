@@ -48,6 +48,8 @@ Many plugins and applications have not been updated to support 3.65. As such, so
 - The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases/latest){:target="_blank"}
   - Download both files
 - The latest release of [CMA](http://cma.dl.playstation.net/cma/win/gb/index.html){:target="_blank"}
+  - [QCMA](https://codestation.github.io/qcma/){:target="_blank"} works too if you want to use that
+  - Remember to not have both programs installed
 - The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk)
   - Only if you have previously installed HENkaku Ensō
 
