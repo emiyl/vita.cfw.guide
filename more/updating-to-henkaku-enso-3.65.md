@@ -117,6 +117,15 @@ We will now make a backup of VitaShell on your computer so you can restore it if
   - The copy will be saved in `Documents/PS Vita/APP` on your computer
 21. Exit Content Manager
 
+### Unlinking Memory Card
+---
+
+1. Open the System Settings application
+2. Select "HENkaku Settings"
+3. Disable "Enable PSN Spoofing"
+3. Select "Unlink Memory Card"
+  - If you do not do this, you will not be able to use your memory card on 3.65
+
 ### Uninstalling HENkaku Ensō
 ---
 
@@ -126,15 +135,6 @@ If you never installed Ensō, this doesn't apply to you and you can skip to the 
 2. Read what's on screen and then press **O**
 3. Press **Triangle** to uninstall HENkaku Ensō
 4. Reboot when prompted
-
-### Unlinking Memory Card
----
-
-1. Open the System Settings application
-2. Select "HENkaku Settings"
-3. Disable "Enable PSN Spoofing"
-3. Select "Unlink Memory Card"
-  - If you do not do this, you will not be able to use your memory card on 3.65
 
 ### Installing HENkaku Ensō for 3.65
 ---
