@@ -10,7 +10,7 @@ SD2Vita is a microSD to gamecard adapter for the PS Vita. This means that you ca
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
-- The latest release of [gamecard-microsd](/assets/files/gamesd.skprx){:target="_blank"}
+- The latest release of [gamecard-microsd](/assets/files/gamesd.skprx)
 
 ## Instructions
 Make sure your Vita and computer are connected to the same internet
