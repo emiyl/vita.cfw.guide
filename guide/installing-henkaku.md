@@ -45,6 +45,6 @@ Now we’ve got that out the way, we can start to install some homebrew applicat
 
 You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.
 
-<p class="notice">If you are looking to install HENkaku Enso for 3.65, stop here and proceed <a href="/more/updating-to-henkaku-enso-3.65/">here</a>. Keep in mind some software, such as USBMC, is still not compatible on 3.65.</p>
+<p class="notice">If you are looking to install HENkaku Enso for 3.65, stop here and proceed <a href="/more/updating-to-henkaku-enso-3.65/">here</a>.</p>
 
 <center><a href="/guide/installing-henkaku-enso"><button class="btn btn--light-outline">Installing HENkaku Ensō</button></a></center>
