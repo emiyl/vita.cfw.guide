@@ -102,8 +102,15 @@
     enable_page_level_ads: true
   });
 </script>
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#292929">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#292929">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
 <!-- end custom head snippets -->
 
   </head>
@@ -206,14 +213,6 @@
             
 
             <li><a href="http://localhost:4000/guide/installing-henkaku-enso/" class="">Installing HENKaku Ensō</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/enabling-ps-store/" class="">Enabling PS Store</a></li>
           
             
             
@@ -351,6 +350,7 @@
     <ul>
       <li><a href="#preparing">Preparing</a></li>
       <li><a href="#backing-up-vitashell">Backing up VitaShell</a></li>
+      <li><a href="#unlinking-memory-card">Unlinking Memory Card</a></li>
       <li><a href="#uninstalling-henkaku-ensō">Uninstalling HENkaku Ensō</a></li>
       <li><a href="#installing-henkaku-ensō-for-365">Installing HENkaku Ensō for 3.65</a></li>
     </ul>
@@ -372,7 +372,7 @@
 
 <p>If you do not follow this guide correctly, you could lose homebrew access, with <strong>no way to get it back!</strong></p>
 
-<p>Only follow this guide if you want to install games which require a firmware version higher than 3.61!</p>
+<p>Only follow this guide if you want to use PSN or install games which require a firmware version higher than 3.61!</p>
 
 <p>Please follow all steps in this guide carefully. I will not be responsible to anything that happens to your device when using this.</p>
 
@@ -405,8 +405,8 @@
   </li>
   <li>The latest release of <a href="https://github.com/TheOfficialFloW/VitaShell/releases/latest/" target="_blank">VitaShell</a>
     <ul>
-      <li>You must have v1.82 or later
-  - VitaShell v1.82 and earlier no longer automatically updates, so you will need to download it again if it’s not already installed</li>
+      <li>You must have v1.82 or later</li>
+      <li>VitaShell v1.82 and earlier no longer automatically updates, so you will need to download it again if it’s not already installed</li>
     </ul>
   </li>
   <li>The latest release of <a href="https://github.com/TheOfficialFloW/update365/releases/latest" target="_blank">update365</a>
@@ -414,7 +414,12 @@
       <li>Download both files</li>
     </ul>
   </li>
-  <li>The latest release of <a href="http://cma.dl.playstation.net/cma/win/gb/index.html" target="_blank">CMA</a></li>
+  <li>The latest release of <a href="http://cma.dl.playstation.net/cma/win/gb/index.html" target="_blank">CMA</a>
+    <ul>
+      <li><a href="https://codestation.github.io/qcma/" target="_blank">QCMA</a> works too if you want to use that</li>
+      <li>Remember to not have both programs installed</li>
+    </ul>
+  </li>
   <li>The latest release of <a href="https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk">HENkaku Ensō</a>
     <ul>
       <li>Only if you have previously installed HENkaku Ensō</li>
@@ -446,6 +451,7 @@
   <li>Go down to the <code class="highlighter-rouge">VitaShell</code> directory</li>
   <li>Press <strong>Triangle</strong> and then select “Delete”</li>
   <li>Press <strong>Select</strong></li>
+  <li>Delete the <code class="highlighter-rouge">patch/VITASHELL/</code> directory</li>
   <li>Open your FTP client on your computer</li>
   <li>Type in the IP Address and Port shown on your Vita</li>
   <li>Navigate to <code class="highlighter-rouge">ux0:data</code> on the FTP Client</li>
@@ -510,8 +516,15 @@
     </ul>
   </li>
   <li>Exit Content Manager</li>
+</ol>
+
+<h3 id="unlinking-memory-card">Unlinking Memory Card</h3>
+<hr />
+
+<ol>
   <li>Open the System Settings application</li>
   <li>Select “HENkaku Settings”</li>
+  <li>Disable “Enable PSN Spoofing”</li>
   <li>Select “Unlink Memory Card”
     <ul>
       <li>If you do not do this, you will not be able to use your memory card on 3.65</li>
@@ -525,7 +538,7 @@
 <p>If you never installed Ensō, this doesn’t apply to you and you can skip to the next section.</p>
 
 <ol>
-  <li>Open up the HENkaku Ensō application you installed earlier</li>
+  <li>Open up the HENkaku Ensō application</li>
   <li>Read what’s on screen and then press <strong>O</strong></li>
   <li>Press <strong>Triangle</strong> to uninstall HENkaku Ensō</li>
   <li>Reboot when prompted</li>
@@ -534,20 +547,18 @@
 <h3 id="installing-henkaku-ensō-for-365">Installing HENkaku Ensō for 3.65</h3>
 <hr />
 
+<p>Do not open any other apps than the guide tells you to until 3.65 has been installed.</p>
+
 <ol>
   <li>Reboot your device</li>
-  <li>Open the Web Browser
-    <ul>
-      <li>Do not open any other apps</li>
-    </ul>
-  </li>
+  <li>Open the Web Browser</li>
   <li>Go to <a href="http://go.henkaku.xyz" target="_blank">http://go.henkaku.xyz</a></li>
-  <li>Once HENkaku is installed, launch the HENkaku Ensō 3.65 Update application</li>
+  <li>Launch the HENkaku Ensō 3.65 Update application</li>
   <li>Follow the on-screen instructions</li>
-  <li>Enjoy!</li>
+  <li>When it reboots to 3.65, make sure to re-enable PSN Spoofing to 3.67</li>
 </ol>
 
-<p>HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you notice any issues with my guide, please contact me on <a href="/help/discord/">Discord</a>.</p>
+<p>HENkaku Ensō should now be installed on your PS Vita with firmware version 3.65. If you want you can install VitaShell to System to avoid losing it when formatting by following <a href="/more/installing-vitashell-to-system/">this guide</a>.</p>
 
 <p>You may now uncomment any plugins in the <code class="highlighter-rouge">config.txt</code>. Some plugins may not work as they might not have been updated to support 3.65. Make sure to download the latest versions before using them.</p>
 
