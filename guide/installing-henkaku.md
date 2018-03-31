@@ -28,6 +28,8 @@ This will allow us to access the Vita’s internal memory and install homebrew w
 2. Select HENkaku Settings
 3. Check **Enable Unsafe Homebrew**
 
+<p class="notice">If you are looking to install HENkaku Enso for 3.65, stop here and proceed <a href="/more/updating-to-henkaku-enso-3.65/">here</a>.</p>
+
 ## Installing Homebrew
 Now we’ve got that out the way, we can start to install some homebrew applications to put on our Home Menu
 
@@ -44,7 +46,5 @@ Now we’ve got that out the way, we can start to install some homebrew applicat
 	- Make sure you still have unsafe homebrew enabled
 
 You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.
-
-<p class="notice">If you are looking to install HENkaku Enso for 3.65, stop here and proceed <a href="/more/updating-to-henkaku-enso-3.65/">here</a>.</p>
 
 <center><a href="/guide/installing-henkaku-enso"><button class="btn btn--light-outline">Installing HENkaku Ensō</button></a></center>
