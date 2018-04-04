@@ -17,7 +17,7 @@ You can now update your 3.60 HENkaku enabled PS Vita to 3.65, while keeping HENk
 
 If you do not follow this guide correctly, you could lose homebrew access, with **no way to get it back!**
 
-Only follow this guide if you want to use PSN or install games which require a firmware version higher than 3.61!
+Only follow this guide if you want to legitimately activate your Vita for official PSN content or install games which require a firmware version higher than 3.61!
 
 Please follow all steps in this guide carefully. I will not be responsible to anything that happens to your device when using this.
 
@@ -69,8 +69,8 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 3. Open `ux0`
 3. Go down to the `VitaShell` directory
 3. Press **Triangle** and then select "Delete"
-3. Press **Select**
 3. Delete the `patch/VITASHELL/` directory
+3. Press **Select**
 4. Open your FTP client on your computer
 5. Type in the IP Address and Port shown on your Vita
 6. Navigate to `ux0:data` on the FTP Client
@@ -91,11 +91,11 @@ Do not reboot, turn off, or let your PS Vita run out of charge while following t
 15. Press **Triangle** and then select "Paste"
   - The 'PSP2UPDAT.PUP' file should be there
 16. Open `ux0:tai/config.txt`
-17. Add a hashtag before each user-made plugin
+17. Add a hashtag before (disable) each plugin you may have installed
 	- e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.
 	- e.g. turn `ux0:tai/gamesd.skrpx` to `#ux0:tai/gamesd.skrpx`
 18. Open`ur0:tai/config.txt`
-19. Add a hashtag before each user-made plugin
+19. Add a hashtag before (disable) each plugin
 20. Exit MolecularShell
 
 ### Backing up VitaShell
