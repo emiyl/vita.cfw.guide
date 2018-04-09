@@ -340,7 +340,9 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        <p>SD2Vita is a microSD to gamecard adapter for the PS Vita. This means that you can use a microSD card as storage for your Vita instead of Sony’s expensive proprietry memory cards.</p>
+        <p>SD2Vita is a microSD to gamecard adapter for the PS Vita. This means that you can use a microSD card as storage for your Vita instead of Sony’s expensive proprietary memory cards.</p>
+
+<p>The first part of this guide requires a Windows OS.</p>
 
 <h2 id="downloads">Downloads</h2>
 <ul>
@@ -350,9 +352,31 @@
     </ul>
   </li>
   <li>The latest release of <a href="/assets/files/gamesd.skprx">gamecard-microsd</a></li>
+  <li>The latest release of <a href="https://sourceforge.net/projects/win32diskimager/" target="_blank">Win32 Disk Imager</a></li>
+  <li><a href="/assets/files/zzBlank.img">zzBlank.img</a></li>
 </ul>
 
-<h2 id="instructions">Instructions</h2>
+<h2 id="formatting-your-microsd-card">Formatting your microSD Card</h2>
+
+<p><img src="/assets/images/formatmicrosd.png" alt="Format microSD Card" title="Format microSD Card" class="align-right" /></p>
+<ol>
+  <li>Insert your microSD card into your computer</li>
+  <li>Open Win32 Disk Imager</li>
+  <li>Select <code class="highlighter-rouge">zzBlank.img</code> from your computer</li>
+  <li>Select your microSD card</li>
+  <li>Press “Write”</li>
+  <li>Take out your microSD card and put it back in</li>
+  <li>Format your microSD card from Windows</li>
+  <li>Select the following options
+    <ul>
+      <li>File System: exFAT</li>
+      <li>Allocation Unit Size: Default Allocation Size</li>
+      <li>Don’t put in a volume label</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="installing-sd2vita">Installing SD2Vita</h2>
 <p>Make sure your Vita and computer are connected to the same internet</p>
 
 <ol>

@@ -5,14 +5,33 @@ sidebar:
   nav: "side"
 ---
 
-SD2Vita is a microSD to gamecard adapter for the PS Vita. This means that you can use a microSD card as storage for your Vita instead of Sony's expensive proprietry memory cards.
+SD2Vita is a microSD to gamecard adapter for the PS Vita. This means that you can use a microSD card as storage for your Vita instead of Sony's expensive proprietary memory cards.
+
+The first part of this guide requires a Windows OS.
 
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
 - The latest release of [gamecard-microsd](/assets/files/gamesd.skprx)
+- The latest release of [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/){:target="_blank"}
+- [zzBlank.img](/assets/files/zzBlank.img)
 
-## Instructions
+## Formatting your microSD Card
+
+![Format microSD Card](/assets/images/formatmicrosd.png "Format microSD Card"){: .align-right}
+1. Insert your microSD card into your computer
+2. Open Win32 Disk Imager
+3. Select `zzBlank.img` from your computer
+4. Select your microSD card
+5. Press "Write"
+6. Take out your microSD card and put it back in
+7. Format your microSD card from Windows
+8. Select the following options
+  - File System: exFAT
+  - Allocation Unit Size: Default Allocation Size
+  - Don't put in a volume label
+
+## Installing SD2Vita
 Make sure your Vita and computer are connected to the same internet
 
 1. Open MolecularShell or VitaShell on your Vita
