@@ -33,7 +33,7 @@ Firstly, you’ll need to find out your PS Vita’s firmware version. You can fi
 			</tr>
 			<tr>
 				<td>3.61</td>
-				<td>3.67</td>
+				<td>3.68</td>
 				<td><a href="/guide/blocking-updates">Blocking Updates</a></td>
 			</tr>
 		</tbody>
