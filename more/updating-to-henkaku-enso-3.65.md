@@ -36,7 +36,7 @@ Formatting your Vita should be safe however.
 
 ## Compatibility
 
-Many plugins and applications have not been updated to support 3.65. As such, some of them on your Vita may stop working. Software such as VitaShell, Adrenaline, DownloadEnabler, SD2Vita, and more have been updated though however. Download the latest version to use them.
+Homebrew and plugins might have to be updated to work on 3.65. Software such as SD2Vita and NoNpDrm have been updated and you will need to download the new versions to keep using them.
 
 ## Downloads
 
