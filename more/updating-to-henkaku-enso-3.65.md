@@ -50,7 +50,7 @@ Homebrew and plugins might have to be updated to work on 3.65. Software such as 
 - The latest release of [CMA](http://cma.dl.playstation.net/cma/win/gb/index.html){:target="_blank"}
   - [QCMA](https://codestation.github.io/qcma/){:target="_blank"} works too if you want to use that
   - Remember to not have both programs installed
-- The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk)
+- The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/latest/){:target="_blank"}
   - Only if you have previously installed HENkaku Ensō
 
 ## Instructions
