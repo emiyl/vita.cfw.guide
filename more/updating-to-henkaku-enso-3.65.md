@@ -44,7 +44,7 @@ Homebrew and plugins might have to be updated to work on 3.65. Software such as 
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
 - The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/){:target="_blank"}
   - You must have v1.82 or later
-  - VitaShell v1.82 and earlier no longer automatically updates, so you will need to download it again if it's not already installed
+  - VitaShell v1.82 and earlier no longer automatically update, so you will need to download it again if it's not already installed
 - The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases/latest){:target="_blank"}
   - Download both files
 - The latest release of [CMA](http://cma.dl.playstation.net/cma/win/gb/index.html){:target="_blank"}
