@@ -36,7 +36,7 @@ Formatting your Vita should be safe however.
 
 ## Compatibility
 
-Many plugins and applications have not been updated to support 3.65. As such, some of them on your Vita may stop working. Software such as VitaShell, Adrenaline, DownloadEnabler, SD2Vita, and more have been updated though however. Download the latest version to use them.
+Homebrew and plugins might have to be updated to work on 3.65. Software such as SD2Vita and NoNpDrm have been updated and you will need to download the new versions to keep using them.
 
 ## Downloads
 
@@ -44,13 +44,13 @@ Many plugins and applications have not been updated to support 3.65. As such, so
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
 - The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/){:target="_blank"}
   - You must have v1.82 or later
-  - VitaShell v1.82 and earlier no longer automatically updates, so you will need to download it again if it's not already installed
+  - VitaShell v1.82 and earlier no longer automatically update, so you will need to download it again if it's not already installed
 - The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases/latest){:target="_blank"}
   - Download both files
 - The latest release of [CMA](http://cma.dl.playstation.net/cma/win/gb/index.html){:target="_blank"}
   - [QCMA](https://codestation.github.io/qcma/){:target="_blank"} works too if you want to use that
   - Remember to not have both programs installed
-- The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk)
+- The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/latest/){:target="_blank"}
   - Only if you have previously installed HENkaku Ensō
 
 ## Instructions
