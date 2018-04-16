@@ -24,5 +24,5 @@ HENkaku only runs on 3.60. If you are on 3.57 or below, you'll need to update to
 
 ![Vita Update 3.60](/assets/images/vitaupdate.jpg "Vita Update 3.60")
 ---
-[Installing HENkaku](/guide/installing-henkaku){: .btn .btn--light-outline .btn--large}
+[Installing HENkaku](/guide/installing-henkaku){: .btn .btn--light-outline}
 {: style="text-align: center;"}

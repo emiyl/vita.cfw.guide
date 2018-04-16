@@ -30,5 +30,5 @@ HENkaku requires us to relaunch the exploit upon every reboot. This might not be
 
 If you ever want to uninstall HENkaku Ensō, open the HENkaku Ensō Installer and follow the on screen instructions to uninstall it. Remember to disable version spoofing and to unlink your memory card before uninstalling, otherwise you will not be able to use your memory card on 3.60.
 
-[Blocking Updates](/guide/blocking-updates){: .btn .btn--light-outline .btn--large}
+[Blocking Updates](/guide/blocking-updates){: .btn .btn--light-outline}
 {: style="text-align: center;"}
