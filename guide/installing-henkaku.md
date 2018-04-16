@@ -47,4 +47,5 @@ Now we’ve got that out the way, we can start to install some homebrew applicat
 
 You can now use VitaShell as your main file browser, and use Vita Homebrew Browser to download whatever homebrew you want. Keep in mind that Unsafe Homebrew must be enabled to run Vita Homebrew Browser.
 
-<center><a href="/guide/installing-henkaku-enso"><button class="btn btn--light-outline">Installing HENkaku Ensō</button></a></center>
+[Installing HENkaku Ensō](/guide/installing-henkaku-enso){: .btn .btn--light-outline .btn--large}
+{: style="text-align: center;"}

@@ -27,7 +27,8 @@ HENkaku requires us to relaunch the exploit upon every reboot. This might not be
 12. Press **O** to accept terms
 13. Press **X** to install Ensō
 	- If it says os0 modifications detected, press **X** to install the 3.60 PUP
-	
+
 If you ever want to uninstall HENkaku Ensō, open the HENkaku Ensō Installer and follow the on screen instructions to uninstall it. Remember to disable version spoofing and to unlink your memory card before uninstalling, otherwise you will not be able to use your memory card on 3.60.
 
-<center><a href="/guide/blocking-updates"><button class="btn btn--light-outline">Blocking Updates</button></a></center>
+[Blocking Updates](/guide/blocking-updates){: .btn .btn--light-outline .btn--large}
+{: style="text-align: center;"}
