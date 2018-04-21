@@ -5,6 +5,12 @@ sidebar:
   nav: "side"
 ---
 
+You need an official Sony Memory Card to install HENkaku on a PS Vita 1000.
+{: .notice--info}
+
+Running homebrew from untrustworthy sources could brick your console.
+{: .notice--danger}
+
 Firstly, you’ll need to find out your PS Vita’s firmware version. You can find this by going to the Settings application and tapping System and then System Information. Your version should be displayed on the top of your screen.
 
 <center>

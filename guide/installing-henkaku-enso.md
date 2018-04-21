@@ -5,7 +5,9 @@ sidebar:
   nav: "side"
 ---
 
-HENkaku requires us to relaunch the exploit upon every reboot. This might not be hard, but it can get annoying. This is why we recommend installing HENkaku Ensō. Ensō will automatically install HENkaku on boot, making it the best solution to PS Vita homebrew right now.
+HENkaku requires us to relaunch the exploit upon every reboot. This might not be hard, but it can get annoying. This is why we recommend installing HENkaku Ensō.
+
+HENkaku Ensō will automatically install HENkaku on boot, making it the best solution to PS Vita homebrew right now.
 
 ## Downloads
 - An FTP Client
@@ -28,7 +30,11 @@ HENkaku requires us to relaunch the exploit upon every reboot. This might not be
 13. Press **X** to install Ensō
 	- If it says os0 modifications detected, press **X** to install the 3.60 PUP
 
-If you ever want to uninstall HENkaku Ensō, open the HENkaku Ensō Installer and follow the on screen instructions to uninstall it. Remember to disable version spoofing and to unlink your memory card before uninstalling, otherwise you will not be able to use your memory card on 3.60.
+To uninstall HENkaku Ensō, open the HENkaku Ensō Installer and follow the on screen instructions to uninstall it.
+{: .notice--info}
+
+You must disable Version Spoofing in HENKaku Settings before uninstalling HENkaku Ensō, or your memory card will have to be formatted.
+{: .notice--danger}
 
 [Blocking Updates](/guide/blocking-updates){: .btn .btn--light-outline}
 {: style="text-align: center;"}

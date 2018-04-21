@@ -6,16 +6,19 @@ sidebar:
   nav: "side"
 ---
 
-You can now update your 3.60 HENkaku enabled PS Vita to 3.65, while keeping HENkaku installed. This is not installable from 3.61 or above.
+You need an official Sony Memory Card to update to Enso 3.65 on a PS Vita 1000.
+{: .notice--info}
 
 If you are on a firmware version below 3.60, update using <a href="/guide/updating-to-3.60/">this guide</a>.
-{: .notice .notice--info}
+{: .notice--info}
 
 If you have not yet installed HENkaku, follow <a href="/guide/installing-henkaku/">this guide</a>. Do not proceed to installing HENkaku Ensō.
-{: .notice .notice--info}
+{: .notice--info}
 
-If you have a Vita 1000, you **must** have a **memory card** to update to 3.65. There is no way around this.
-{: .notice .notice--info}
+Once 3.65 is installed, there will be no way to revert to 3.60.
+{: .notice--danger}
+
+This guide will update your HENkaku enabled console to 3.65 with HENkaku Ensō. This is not installable from 3.61 or above.
 
 ## Important
 

@@ -5,6 +5,9 @@ sidebar:
   nav: "side"
 ---
 
+You must enable this DNS on every network you connect to.
+{: .notice--info}
+
 HENkaku only runs on 3.60, therefore it's important to not update further.
 
 If you previously set your DNS when updating to 3.60 and haven't changed it since, you don't need to follow this step.
