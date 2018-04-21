@@ -9,6 +9,9 @@ After installing HENkaku Enso on 3.65, you can lose VitaShell if you format the 
 
 This guide will replace a system app, so that application will not be usable after this. This guide involves rebuilding the database, which will reset your icon layout. This step is necessary and VitaShell will not work on the system without doing this.
 
+When updating the system, the injected application will be lost and the system application will revert back to its previous state.
+{: .notice .notice--info}
+
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}

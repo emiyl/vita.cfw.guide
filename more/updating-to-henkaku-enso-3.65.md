@@ -8,20 +8,22 @@ sidebar:
 
 You can now update your 3.60 HENkaku enabled PS Vita to 3.65, while keeping HENkaku installed. This is not installable from 3.61 or above.
 
-<div class="notice"><p>If you are on a firmware version below 3.60, update using <a href="/guide/updating-to-3.60/">this guide</a>.</p>
-<p>If you have not yet installed HENkaku, follow <a href="/guide/installing-henkaku/">this guide</a>. Do not proceed to installing HENkaku Ensō.</p></div>
+If you are on a firmware version below 3.60, update using <a href="/guide/updating-to-3.60/">this guide</a>.
+{: .notice .notice--info}
+
+If you have not yet installed HENkaku, follow <a href="/guide/installing-henkaku/">this guide</a>. Do not proceed to installing HENkaku Ensō.
+{: .notice .notice--info}
+
+If you have a Vita 1000, you **must** have a **memory card** to update to 3.65. There is no way around this.
+{: .notice .notice--info}
 
 ## Important
-
-<p class="notice">If you have a Vita 1000, you <b>must</b> have a <b>memory card</b> to update to 3.65. There is no way around this.</p>
 
 If you do not follow this guide correctly, you could lose homebrew access, with **no way to get it back!**
 
 Only follow this guide if you want to legitimately activate your Vita for official PSN content or install games which require a firmware version higher than 3.61!
 
 Please follow all steps in this guide carefully. I will not be responsible to anything that happens to your device when using this.
-
-If you have any tips to improve the guide, please contact me on my [Discord](/help/discord/){:target="_blank"}.
 
 ## Warnings
 
@@ -33,10 +35,6 @@ If you have any tips to improve the guide, please contact me on my [Discord](/he
 Doing so could leave you on 3.65 without any way to regain homebrew access.
 
 Formatting your Vita should be safe however.
-
-## Compatibility
-
-Homebrew and plugins might have to be updated to work on 3.65. Software such as SD2Vita and NoNpDrm have been updated and you will need to download the new versions to keep using them.
 
 ## Downloads
 

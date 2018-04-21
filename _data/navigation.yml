@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Donate"
-    url: https://www.paypal.me/emiyl
+    url: /donate
   - title: "Home"
     url: https://cfw.guide/
 

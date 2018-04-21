@@ -7,7 +7,14 @@ sidebar:
 
 SD2Vita is a microSD to gamecard adapter for the PS Vita. This means that you can use a microSD card as storage for your Vita instead of Sony's expensive proprietary memory cards.
 
-The first part of this guide requires a Windows OS.
+Make sure your Vita and computer are connected to the same internet
+{: .notice .notice--info}
+
+The first part of this guide requires you to have Windows
+{: .notice .notice--info}
+
+You must have the latest version of VitaShell installed
+{: .notice .notice--info}
 
 ## Downloads
 - An FTP Client
@@ -34,7 +41,7 @@ The first part of this guide requires a Windows OS.
 ## Installing SD2Vita
 Make sure your Vita and computer are connected to the same internet
 
-1. Open MolecularShell or VitaShell on your Vita
+1. Open VitaShell on your Vita
 2. Press **Select**
 3. Open your FTP client on your computer
 4. Type in the IP Address and Port shown on your Vita

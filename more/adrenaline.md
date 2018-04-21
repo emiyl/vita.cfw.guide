@@ -7,6 +7,12 @@ sidebar:
 
 Adrenaline is an extremely useful piece of software which lets you run PS1 and PSP games and homebrew from your memory card.
 
+Make sure your Vita and computer are connected to the same internet
+{: .notice .notice--info}
+
+You must have the latest version of VitaShell installed
+{: .notice .notice--info}
+
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
@@ -14,9 +20,8 @@ Adrenaline is an extremely useful piece of software which lets you run PS1 and P
 - The latest release of [PSP Homebrew Browser](/assets/files/PSPhbb_dev.vpk)
 
 ## Instructions
-Make sure your Vita and computer are connected to the same internet
 
-1. Open MolecularShell or VitaShell on your Vita
+1. Open VitaShell on your Vita
 2. Press **Select**
 3. Open your FTP client on your computer
 4. Type in the IP Address and Port shown on your Vita
