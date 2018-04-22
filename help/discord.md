@@ -1,9 +1,12 @@
 ---
 title: Discord
-layout: single
+layout: help
 sidebar:
   nav: "side"
 ---
+
+Please read the [FAQ](/help/faq) before joining.
+{: .notice}
 
 If you have any issues or problems regarding the guides on this site, please ask on our Discord Server below
 

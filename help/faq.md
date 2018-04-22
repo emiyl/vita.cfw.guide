@@ -1,13 +1,12 @@
 ---
 title: FAQ
-layout: single
+layout: help
 sidebar:
   nav: "side"
 ---
 
-Unsure about something? Check here first!
-
 If you can't find an answer here, ask for help on our [Discord Server](/help/discord).
+{: .notice}
 
 ## Error C2-12828 when launching HENkaku
 1. Make sure you have a strong Wi-Fi signal
@@ -22,13 +21,12 @@ If you can't find an answer here, ask for help on our [Discord Server](/help/dis
 6. If all that fails, try formatting the memory card
 
 ## Can I downgrade to 3.60?
-No. You must buy a new Vita on 3.60 or below or swap out your motherboard for one 3.60 or below.
+No. You must buy a new Vita on 3.60 or below or swap out your motherboard for one on 3.60 or below.
+
+Due to the high demand of these motherboards, a lot of sellers are lying about their motherboard's firmware version. Be careful when buying motherboards.
 
 ## If I buy a brand new Vita, will I be able to use homebrew on it?
-Yes. All new Vitas will come on versions 3.60 or lower. However, new Japanese Red and Silver models will come on 3.61 or higher.
-
-## Can I update to 3.60?
-Yes, follow this guide [here](/guide/updating-to-3.60).
+Yes. All new Vitas will come on versions 3.60 or lower with the exception of the Japanese 1000 Red and Silver models, and all Japanese 2000 and PSTV models.
 
 ## Is the Vita region-free?
 Yes. You can play any game you like from any region.
