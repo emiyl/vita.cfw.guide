@@ -9,7 +9,7 @@ This will update your PS Vita to system version 3.65 in preparation for the new 
 
 *Do not* update through the system to 3.68. You cannot install HENkaku Ensō on system versions 3.67 and above. HENkaku Ensō allows you to run homebrew automatically on boot.
 
-This guide is for updating to **STOCK** 3.65. If you are looking to update to HENkaku Ensō 3.65 from 3.60, follow [this guide](updating-to-henkaku-enso-3.65).
+This guide is for updating to **STOCK** 3.65. If you are looking to update to HENkaku Ensō 3.65 from 3.60, follow [this guide](/more/updating-to-henkaku-enso-3.65).
 {: .notice--info}
 
 This guide is not compatible with PS TV consoles.
