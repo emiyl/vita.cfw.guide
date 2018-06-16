@@ -27,7 +27,7 @@ Make sure your Vita and computer are connected to the same internet
 11. Navigate to `ur0:tai` and paste it there
 12. Open `config.txt`
 13. Go to `*main` and press **Triangle > Insert empty line**
-14. Type into the new line: `ur0:tai/de3.suprx`
+14. Type into the new line: `ur0:tai/download_enabler.suprx`
 15. Exit and save changes
 16. Delete the directory `ux0:tai` if it exists
 	- If you have any plugins already installed, copy those over to `ur0:tai` and edit `ur0:tai/config.txt` accordingly
