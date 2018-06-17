@@ -15,9 +15,6 @@ This guide is for updating to **STOCK** 3.65. If you are looking to update to HE
 This guide is not compatible with PS TV consoles.
 {: .notice--danger}
 
-This guide is untested and may result in a brick.
-{: .notice--danger}
-
 ## Downloads
 
 - [PS Vita Firmware 3.65](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP)
