@@ -19,7 +19,7 @@ You must have the latest version of VitaShell installed
 ## Downloads
 - An FTP Client
 	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
-- The latest release of [gamecard-microsd](/assets/files/gamesd.skprx)
+- The latest release of [gamecard-microsd](https://github.com/xyzz/gamecard-microsd/releases/latest){:target="_blank"}
 - The latest release of [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/){:target="_blank"}
 - [zzBlank.img](/assets/files/zzBlank.img)
 
