@@ -12,15 +12,6 @@ This will update your PS Vita to system version 3.65 in preparation for the new 
 This guide is for updating to **STOCK** 3.65. If you are looking to update to HENkaku Ensō 3.65 from 3.60, follow [this guide](/more/updating-to-henkaku-enso-3.65).
 {: .notice--info}
 
-## Downloads
-
-- [PS Vita Firmware 3.65](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP)
-- [QCMA](https://codestation.github.io/qcma/)
-- `psp2-updatelist.xml`
-	- <a href="/assets/files/us/psp2-updatelist.xml" download>US</a>
-	- <a href="/assets/files/eu/psp2-updatelist.xml" download>EU</a>
-	- <a href="/assets/files/jp/psp2-updatelist.xml" download>JP</a>
-
 ## Instructions
 
 1. Open the Settings application
