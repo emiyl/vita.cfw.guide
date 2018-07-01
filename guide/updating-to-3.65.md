@@ -19,23 +19,23 @@ This guide is not compatible with PS TV consoles.
 
 - [PS Vita Firmware 3.65](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP)
 - [QCMA](https://codestation.github.io/qcma/)
-- `psp2-updatelist.xml`
-	- <a href="/assets/files/us/psp2-updatelist.xml" download>US</a>
-	- <a href="/assets/files/eu/psp2-updatelist.xml" download>EU</a>
-	- <a href="/assets/files/jp/psp2-updatelist.xml" download>JP</a>
 
 ## Instructions
 
 1. Install QCMA onto your PC
 1. Copy the `PSP2UPDAT.PUP` file to your QCMA Updates folder
 	- On Windows this is typically `C:\Users\USERNAME\Documents\PSV Updates`
-1. Copy the `psp2-updatelist.xml` file to your QCMA Updates folder
 1. On your PS Vita, open the Settings application
 1. Enable "Flight Mode"
 1. Press the PS button to go back to the home screen
 1. Tap the bubble in the top right corner
 1. Delete any updates previously downloaded if they exist
 1. Launch QCMA on your PC
+1. Open QCMA Settings
+1. Open the `Other` tab
+1. Change the `Use this version for updates` drop down to `Custom`
+1. Enter `Custom PS Vita version` to `03.650.000`
+1. Click Ok
 1. Plug your Vita into your PC via USB
 1. On your Vita, open the Settings application again
 1. Select "System Update"
