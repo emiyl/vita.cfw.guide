@@ -25,7 +25,6 @@ This guide is not compatible with PS TV consoles.
 1. Install QCMA onto your PC
 1. Copy the `PSP2UPDAT.PUP` file to your QCMA Updates folder
 	- On Windows this is typically `C:\Users\USERNAME\Documents\PSV Updates`
-1. Copy the `psp2-updatelist.xml` file to your QCMA Updates folder
 1. On your PS Vita, open the Settings application
 1. Enable "Flight Mode"
 1. Press the PS button to go back to the home screen
